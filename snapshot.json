@@ -2,13 +2,31 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "c248f6d48b97eb4a2aa56147a0b11b7d763278b9",
-  "commit_date": "2026-09-29T05:10:13Z"
+  "sha": "19e554bb70103b17aa7dca6bbd0dbf1c8b2eddb6",
+  "commit_date": "2026-10-03T07:14:12Z"
  },
  "models": {
   "gpt-6-astra": {
    "display_name": "GPT-6-Astra",
    "description": "Frontier intelligence for the most demanding work.",
+   "visibility": "list",
+   "priority": 2,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-6.1-sol": {
+   "display_name": "GPT-6.1-Sol",
+   "description": "Latest workhorse model for coding and everyday work.",
    "visibility": "list",
    "priority": 1,
    "context_window": 272000,
@@ -26,9 +44,9 @@
   },
   "gpt-6-sol": {
    "display_name": "GPT-6-Sol",
-   "description": "Workhorse model for coding and everyday work.",
+   "description": "Previous generation workhorse model.",
    "visibility": "list",
-   "priority": 2,
+   "priority": 3,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -46,7 +64,7 @@
    "display_name": "GPT-6-Luna",
    "description": "Fast and affordable model for easier tasks.",
    "visibility": "list",
-   "priority": 3,
+   "priority": 4,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -61,9 +79,9 @@
   },
   "gpt-5.6-sol": {
    "display_name": "GPT-5.6-Sol",
-   "description": "Older coding model for complex work.",
+   "description": "Older generation workhorse model.",
    "visibility": "list",
-   "priority": 4,
+   "priority": 5,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
@@ -81,7 +99,7 @@
    "display_name": "GPT-5.6-Terra",
    "description": "Older balanced model for straightforward work.",
    "visibility": "list",
-   "priority": 7,
+   "priority": 8,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -99,7 +117,7 @@
    "display_name": "GPT-5.6-Luna",
    "description": "Older fast and efficient model.",
    "visibility": "list",
-   "priority": 8,
+   "priority": 9,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -116,7 +134,7 @@
    "display_name": "Daybreak Blue",
    "description": "Latest frontier agentic coding model for broad defensive cybersecurity work.",
    "visibility": "hide",
-   "priority": 10,
+   "priority": 11,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
@@ -135,7 +153,7 @@
    "display_name": "Daybreak Red",
    "description": "Cyber-permissive variant of our latest frontier agentic coding model for advanced, authorized cybersecurity research.",
    "visibility": "hide",
-   "priority": 11,
+   "priority": 12,
    "context_window": 372000,
    "max_context_window": 372000,
    "default_reasoning_level": "medium",
@@ -154,7 +172,7 @@
    "display_name": "GPT-5.5",
    "description": "Legacy coding model.",
    "visibility": "list",
-   "priority": 12,
+   "priority": 13,
    "context_window": 272000,
    "max_context_window": 272000,
    "default_reasoning_level": "medium",
@@ -237,6 +255,12 @@
   "shell_snapshot": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "login_shell_package_path": {
+   "stage": "Experimental",
+   "default_enabled": false,
+   "name": "Bundled tools in login shells",
+   "description": "Keep bundled tools such as ripgrep available when login shell startup resets PATH."
   },
   "powershell_shell_version": {
    "stage": "UnderDevelopment",
@@ -415,7 +439,11 @@
    "default_enabled": false
   },
   "api_key_model_discovery": {
-   "stage": "UnderDevelopment",
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "api_key_cyber_access_programs": {
+   "stage": "Stable",
    "default_enabled": false
   },
   "enable_request_compression": {
@@ -450,6 +478,14 @@
   },
   "multi_agent_v2": {
    "stage": "Stable",
+   "default_enabled": false
+  },
+  "model_catalog_in_context": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "multi_agent_v2_dynamic_tools": {
+   "stage": "UnderDevelopment",
    "default_enabled": false
   },
   "defer_mailbox_preemption": {
@@ -512,6 +548,10 @@
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
+  "incremental_tools": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "non_prefixed_mcp_tool_names": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -548,11 +588,19 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "browser_annotation_api": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
   "in_app_chat": {
    "stage": "Stable",
    "default_enabled": true
   },
   "in_app_dictation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "in_app_voice": {
    "stage": "Stable",
    "default_enabled": true
   },
@@ -685,6 +733,10 @@
    "default_enabled": false
   },
   "guardianv2": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardianv2_decisions_comparison": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
@@ -850,7 +902,7 @@
  "model_ids": {
   "codex-auto-balanced": "codex-rs/tui/src/chatwidget/model_popups.rs",
   "codex-auto-fast": "codex-rs/tui/src/chatwidget/model_popups.rs",
-  "codex-auto-review": "codex-rs/model-provider/src/provider.rs",
+  "codex-auto-review": "codex-rs/models-manager/models.json",
   "codex-auto-thorough": "codex-rs/tui/src/chatwidget/model_popups.rs",
   "gpt-4o-mini-transcribe": "codex-rs/codex-api/src/endpoint/realtime_websocket/methods_v2.rs",
   "gpt-5": "codex-rs/app-server-test-client/src/lib.rs",
@@ -864,11 +916,12 @@
   "gpt-5.5": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-5.6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/sampler.rs",
   "gpt-5.6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
-  "gpt-5.6-terra": "codex-rs/model-provider/src/provider.rs",
+  "gpt-5.6-terra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-6-astra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-6-astra-wm": "codex-rs/tui/src/daybreak.rs",
-  "gpt-6-luna": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/decisions.rs",
   "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6.1-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
   "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",
@@ -884,6 +937,7 @@
   "https://api.openai.com/auth",
   "https://api.openai.com/profile",
   "https://api.openai.com/v1",
+  "https://api.openai.com/v1/decisions",
   "https://api.openai.com/v1/responses",
   "https://auth.openai.com",
   "https://auth.openai.com/api/accounts",
@@ -908,12 +962,12 @@
   "https://chatgpt.com/codex/install.sh",
   "https://chatgpt.com/codex/open-app",
   "https://chatgpt.com/codex/purchase/reset",
-  "https://chatgpt.com/codex/settings/usage",
   "https://chatgpt.com/cyber",
   "https://chatgpt.com/explore/plus",
   "https://chatgpt.com/explore/pro",
   "https://chatgpt.com/oauth/codex/client.json",
   "https://chatgpt.com/r/b749fb02595e04c3007a54375f3f4374",
+  "https://chatgpt.com/settings/usage",
   "https://developers.openai.com/api/docs/guides/structured-outputs#supported-schemas",
   "https://developers.openai.com/apps-sdk/reference#tool-descriptor-parameters",
   "https://developers.openai.com/codex/concepts/sandboxing#prerequisites",
@@ -927,6 +981,7 @@
   "https://help.openai.com/en/articles/20001326",
   "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
   "https://learn.chatgpt.com/docs/amazon-bedrock",
+  "https://learn.chatgpt.com/docs/enterprise/govcloud-configuration",
   "https://openai.com/codex/",
   "https://openai.com/form/enterprise-trusted-access-for-cyber/",
   "https://platform.openai.com",
