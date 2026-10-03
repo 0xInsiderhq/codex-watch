@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-03 18:42 UTC · [`openai/codex@58ae3ba61186`](https://github.com/openai/codex/commit/58ae3ba61186c39b849a6ebe60e60f4b11690373)
+
+**Feature flags**
+- added `code_mode_only_strict_3p_tools` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#50687](https://github.com/openai/codex/pull/50687) Keep third-party tools deferred in strict Code Mode Only (#50687) (2026-10-03 18:15 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/19e554bb7010...58ae3ba61186)
+
 ## 2026-10-03 07:16 UTC · [`openai/codex@19e554bb7010`](https://github.com/openai/codex/commit/19e554bb70103b17aa7dca6bbd0dbf1c8b2eddb6)
 
 **Models in the bundled catalog**
