@@ -1,0 +1,43 @@
+name: watch
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Clone openai/codex main
+        run: git clone --depth 1 https://github.com/openai/codex.git "$RUNNER_TEMP/codex"
+
+      - name: Compare with the last snapshot
+        id: diff
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 watch.py --codex "$RUNNER_TEMP/codex" \
+            --sha "$(git -C "$RUNNER_TEMP/codex" rev-parse HEAD)" \
+            --commit-date "$(git -C "$RUNNER_TEMP/codex" log -1 --format=%cI)"
+
+      - name: Commit the log
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "codex-watch"
+          git config user.email "codex-watch@users.noreply.github.com"
+          git add -A
+          git commit -F "${{ steps.diff.outputs.message_file }}"
+          git push

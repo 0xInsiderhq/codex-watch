@@ -1,0 +1,940 @@
+{
+ "schema": 1,
+ "source": {
+  "repo": "openai/codex",
+  "sha": "c248f6d48b97eb4a2aa56147a0b11b7d763278b9",
+  "commit_date": "2026-09-29T05:10:13Z"
+ },
+ "models": {
+  "gpt-6-astra": {
+   "display_name": "GPT-6-Astra",
+   "description": "Frontier intelligence for the most demanding work.",
+   "visibility": "list",
+   "priority": 1,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-6-sol": {
+   "display_name": "GPT-6-Sol",
+   "description": "Workhorse model for coding and everyday work.",
+   "visibility": "list",
+   "priority": 2,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "medium",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-6-luna": {
+   "display_name": "GPT-6-Luna",
+   "description": "Fast and affordable model for easier tasks.",
+   "visibility": "list",
+   "priority": 3,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "medium",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ]
+  },
+  "gpt-5.6-sol": {
+   "display_name": "GPT-5.6-Sol",
+   "description": "Older coding model for complex work.",
+   "visibility": "list",
+   "priority": 4,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-5.6-terra": {
+   "display_name": "GPT-5.6-Terra",
+   "description": "Older balanced model for straightforward work.",
+   "visibility": "list",
+   "priority": 7,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "medium",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-5.6-luna": {
+   "display_name": "GPT-5.6-Luna",
+   "description": "Older fast and efficient model.",
+   "visibility": "list",
+   "priority": 8,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "medium",
+   "multi_agent_version": "v1",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ]
+  },
+  "gpt-daybreak-blue-latest": {
+   "display_name": "Daybreak Blue",
+   "description": "Latest frontier agentic coding model for broad defensive cybersecurity work.",
+   "visibility": "hide",
+   "priority": 10,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "model_specialty": "cyber",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-daybreak-red-latest": {
+   "display_name": "Daybreak Red",
+   "description": "Cyber-permissive variant of our latest frontier agentic coding model for advanced, authorized cybersecurity research.",
+   "visibility": "hide",
+   "priority": 11,
+   "context_window": 372000,
+   "max_context_window": 372000,
+   "default_reasoning_level": "medium",
+   "model_specialty": "cyber",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-5.5": {
+   "display_name": "GPT-5.5",
+   "description": "Legacy coding model.",
+   "visibility": "list",
+   "priority": 12,
+   "context_window": 272000,
+   "max_context_window": 272000,
+   "default_reasoning_level": "medium",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh"
+   ]
+  },
+  "codex-auto-review": {
+   "display_name": "Codex Auto Review",
+   "description": "Automatic approval review model for Codex.",
+   "visibility": "hide",
+   "priority": 43,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "medium",
+   "multi_agent_version": "v1",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max"
+   ]
+  }
+ },
+ "features": {
+  "analytics_plan_history": {
+   "stage": "Experimental",
+   "default_enabled": false,
+   "name": "Analytics plan history",
+   "description": "Preview five-hour and weekly allowance history for consumer accounts in /analytics."
+  },
+  "daemon_auto_start": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "transcript_v2": {
+   "stage": "Deprecated",
+   "default_enabled": false
+  },
+  "undo": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "shell_tool": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "view_image": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "sleep_tool": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "secret_auth_storage": {
+   "stage": "Stable",
+   "default_enabled": null
+  },
+  "unified_exec": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "unified_exec_tty": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "shell_zsh_fork": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "unified_exec_zsh_fork": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "shell_snapshot": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "powershell_shell_version": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "shell_snapshot_v2": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "deferred_executor": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "cwd_relative_turn_diffs": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "js_repl": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "content_item_kinds": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "executed_tool_call_metadata": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "code_mode": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "code_mode_buffered_exec": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "code_mode_host": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "code_mode_prewarm": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "code_mode_interrupt": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "instant_interrupt": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "code_mode_only": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "js_repl_tools_only": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "terminal_resize_reflow": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "web_search_request": {
+   "stage": "Deprecated",
+   "default_enabled": false
+  },
+  "web_search_cached": {
+   "stage": "Deprecated",
+   "default_enabled": false
+  },
+  "standalone_web_search": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "search_tool": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "codex_git_commit": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "runtime_metrics": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "sqlite": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "memories": {
+   "stage": "Stable",
+   "default_enabled": false
+  },
+  "external_agent_memory_import": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "local_thread_store_compression": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "local_thread_store_shared_compression": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "background_paginated_rollout_migration": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "chronicle": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "apply_patch_freeform": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "apply_patch_streaming_events": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "apply_patch_preserve_line_endings": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "exec_permission_approvals": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "write_stdin_approval": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "hooks": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "request_permissions_tool": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "use_linux_sandbox_bwrap": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "use_legacy_landlock": {
+   "stage": "Deprecated",
+   "default_enabled": false
+  },
+  "request_rule": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "experimental_windows_sandbox": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "elevated_windows_sandbox": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "windows_sandbox_service": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "prefer_mxc": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "remote_models": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "api_key_model_discovery": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "enable_request_compression": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "unbounded_connection_retries": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "network_proxy": {
+   "stage": "Experimental",
+   "default_enabled": false,
+   "name": "Network proxy",
+   "description": "Apply network proxy restrictions to sandboxed sessions that already have network access."
+  },
+  "worktrees": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "respect_system_proxy": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "system_proxy_fallback": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "multi_agent": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "multi_agent_v2": {
+   "stage": "Stable",
+   "default_enabled": false
+  },
+  "defer_mailbox_preemption": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "agent_message_board": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "multi_agent_mode": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "enable_fanout": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "apps": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "psp": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "enable_mcp_apps": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "mcp_2026_07_28": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "codex_apps_mcp_2026_07_28": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "mcp_oauth_refresh_coordination": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "use_xaa": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "apps_mcp_path_override": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "tool_search": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "tool_search_always_defer_mcp_tools": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "deferred_tool_world_state": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "non_prefixed_mcp_tool_names": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "unavailable_dummy_tools": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "tool_suggest": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "recommended_plugins": {
+   "stage": "Stable",
+   "default_enabled": false
+  },
+  "plugins": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "executor_capability_discovery": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "skip_host_skill_discovery": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "plugin_hooks": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "in_app_browser": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "in_app_chat": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "in_app_dictation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "in_app_local_automation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "in_app_updates": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "browser_use": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "browser_use_full_cdp_access": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "browser_use_external": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "computer_use": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "remote_plugin": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "plugin_sharing": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "external_migration": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "image_generation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "omit_app_server_notification_media": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "image_resize_notice": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "unified_image_budget": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "resize_all_images": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "item_ids": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "concurrent_reasoning_summaries": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "skill_mcp_dependency_install": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "skill_search": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "skill_env_var_dependency_prompt": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "mentions_v2": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "steer": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "default_mode_request_user_input": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "send_async_message": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "send_message_to_user_async": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "terminal_visualization_instructions": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_approval": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "guardianv2.thread_context": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "guardian_reuse_parent_compaction": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "guardian_root_handoff_context": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_enhanced_node_repl_transcripts": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_node_repl_transcript_images": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_conversation_history_tools": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardianv2": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_ext": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "goals": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "token_budget": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "context_management": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "rollout_budget": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "reasoning_effort_override": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "current_time_reminder": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "nonfatal_clock_read_errors": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "collaboration_modes": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "tool_call_mcp_elicitation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "auth_elicitation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "bedrock_setup_wizard": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "personality": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "artifact": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "fast_mode": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "step_model_switching": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "realtime_conversation": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "remote_control": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "image_detail_original": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "tui_app_server": {
+   "stage": "Removed",
+   "default_enabled": true
+  },
+  "prevent_idle_sleep": {
+   "stage": "Conditional:Experimental/UnderDevelopment",
+   "default_enabled": false,
+   "name": "Prevent sleep while running",
+   "description": "Keep your computer awake while Codex is running a thread."
+  },
+  "workspace_owner_usage_nudge": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "responses_websockets": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "responses_websockets_v2": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "remote_compaction_v2": {
+   "stage": "Removed",
+   "default_enabled": false
+  },
+  "compaction_image_budget": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "retain_client_developer_messages": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "use_agent_identity": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "workspace_dependencies": {
+   "stage": "Stable",
+   "default_enabled": true
+  }
+ },
+ "plans": {
+  "Free, _": "Free",
+  "Go, _": "Go",
+  "Plus, _": "Plus",
+  "Pro, _": "Pro 200",
+  "ProLite, _": "Pro 100",
+  "ProMax, _": "Pro 500",
+  "Team | SelfServeBusinessUsageBased, _": "Business",
+  "Business, Status": "Enterprise",
+  "SelfServeBusinessProLite, Status": "Business Premium",
+  "Business | SelfServeBusinessProLite, Analytics": "Business",
+  "EnterpriseCbpAutomation, Status": "Enterprise (Automation)",
+  "Enterprise | Ent26 | EnterpriseCbpUsageBased, _": "Enterprise",
+  "Edu, Status": "Edu",
+  "EduPlus, Status": "Edu Plus",
+  "EduPro, Status": "Edu Pro",
+  "Edu | EduPlus | EduPro, Analytics": "Education",
+  "Unknown, Status": "Unknown",
+  "Unknown, Analytics": "Account"
+ },
+ "plan_types": [
+  "Free",
+  "Go",
+  "Plus",
+  "Pro",
+  "ProLite",
+  "ProMax",
+  "Team",
+  "SelfServeBusinessProLite",
+  "SelfServeBusinessUsageBased",
+  "Business",
+  "Ent26",
+  "EnterpriseCbpAutomation",
+  "EnterpriseCbpUsageBased",
+  "Enterprise",
+  "Edu",
+  "EduPlus",
+  "EduPro",
+  "Unknown"
+ ],
+ "model_ids": {
+  "codex-auto-balanced": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "codex-auto-fast": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "codex-auto-review": "codex-rs/model-provider/src/provider.rs",
+  "codex-auto-thorough": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "gpt-4o-mini-transcribe": "codex-rs/codex-api/src/endpoint/realtime_websocket/methods_v2.rs",
+  "gpt-5": "codex-rs/app-server-test-client/src/lib.rs",
+  "gpt-5.1": ".github/codex/home/config.toml",
+  "gpt-5.1-codex": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "gpt-5.1-codex-max": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "gpt-5.2": "codex-rs/tui/src/chatwidget/model_popups.rs",
+  "gpt-5.2-codex": "codex-rs/tui/src/bottom_pane/status_surface_preview.rs",
+  "gpt-5.4": "codex-rs/tui/src/app/startup_prompts.rs",
+  "gpt-5.4-mini": "codex-rs/tui/src/app/startup_prompts.rs",
+  "gpt-5.5": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-5.6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/sampler.rs",
+  "gpt-5.6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-5.6-terra": "codex-rs/model-provider/src/provider.rs",
+  "gpt-6-astra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6-astra-wm": "codex-rs/tui/src/daybreak.rs",
+  "gpt-6-luna": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
+  "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
+  "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",
+  "gpt-live-1-codex": "codex-rs/core/src/realtime_conversation.rs",
+  "gpt-oss": "codex-rs/model-provider-info/src/lib.rs",
+  "gpt-realtime-1.5": "codex-rs/core/src/realtime_conversation.rs",
+  "gpt-reserve": "codex-rs/protocol/src/error.rs",
+  "o3": "codex-rs/utils/cli/src/config_override.rs"
+ },
+ "urls": [
+  "https://ab.chatgpt.com/otlp/v1/metrics",
+  "https://api.openai.com",
+  "https://api.openai.com/auth",
+  "https://api.openai.com/profile",
+  "https://api.openai.com/v1",
+  "https://api.openai.com/v1/responses",
+  "https://auth.openai.com",
+  "https://auth.openai.com/api/accounts",
+  "https://auth.openai.com/oauth/token",
+  "https://chat.openai.com",
+  "https://chat.openai.com/backend-api",
+  "https://chat.openai.com/backend-api/codex",
+  "https://chat.openai.com/codex",
+  "https://chatgpt.com",
+  "https://chatgpt.com/",
+  "https://chatgpt.com/#settings",
+  "https://chatgpt.com/admin/billing?codex_credit_action=add_credits",
+  "https://chatgpt.com/admin/usage-limits/workspace",
+  "https://chatgpt.com/backend-api",
+  "https://chatgpt.com/backend-api/",
+  "https://chatgpt.com/backend-api/codex",
+  "https://chatgpt.com/backend-api/plugins/export/curated",
+  "https://chatgpt.com/backend-api/wham/app/appcast",
+  "https://chatgpt.com/codex",
+  "https://chatgpt.com/codex-backend/agent-identity",
+  "https://chatgpt.com/codex/install.ps1",
+  "https://chatgpt.com/codex/install.sh",
+  "https://chatgpt.com/codex/open-app",
+  "https://chatgpt.com/codex/purchase/reset",
+  "https://chatgpt.com/codex/settings/usage",
+  "https://chatgpt.com/cyber",
+  "https://chatgpt.com/explore/plus",
+  "https://chatgpt.com/explore/pro",
+  "https://chatgpt.com/oauth/codex/client.json",
+  "https://chatgpt.com/r/b749fb02595e04c3007a54375f3f4374",
+  "https://developers.openai.com/api/docs/guides/structured-outputs#supported-schemas",
+  "https://developers.openai.com/apps-sdk/reference#tool-descriptor-parameters",
+  "https://developers.openai.com/codex/concepts/sandboxing#prerequisites",
+  "https://developers.openai.com/codex/config-basic#feature-flags",
+  "https://developers.openai.com/codex/memories",
+  "https://developers.openai.com/codex/security",
+  "https://developers.openai.com/codex/windows",
+  "https://developers.openai.com/mcp",
+  "https://developers.openai.com/mcp?source=codex",
+  "https://help.openai.com/en/articles/11487775-apps-in-chatgpt",
+  "https://help.openai.com/en/articles/20001326",
+  "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
+  "https://learn.chatgpt.com/docs/amazon-bedrock",
+  "https://openai.com/codex/",
+  "https://openai.com/form/enterprise-trusted-access-for-cyber/",
+  "https://platform.openai.com",
+  "https://platform.openai.com/docs/guides/function-calling#custom-tools",
+  "https://platform.openai.com/docs/guides/function-calling?api-mode=responses",
+  "https://platform.openai.com/docs/guides/reasoning?api-mode=responses#get-started-with-reasoning",
+  "https://platform.openai.com/docs/guides/reasoning?api-mode=responses#reasoning-summaries",
+  "https://platform.openai.com/docs/guides/tools-web-search#live-internet-access",
+  "https://platform.openai.com/docs/guides/tools-web-search?api-mode=responses#:~:text=%7B%20type%3A%20%22web_search%22%20%7D%2C"
+ ]
+}
