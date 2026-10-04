@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-04 21:11 UTC · [`openai/codex@335c7f8ecab2`](https://github.com/openai/codex/commit/335c7f8ecab29c4462a553bbf174276d2c67a766)
+
+**Feature flags**
+- added `stable_environment_tools` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#50962](https://github.com/openai/codex/pull/50962) Gate stable environment tool exposure behind a feature flag (#50962) (2026-10-04 21:08 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/58ae3ba61186...335c7f8ecab2)
+
 ## 2026-10-03 18:42 UTC · [`openai/codex@58ae3ba61186`](https://github.com/openai/codex/commit/58ae3ba61186c39b849a6ebe60e60f4b11690373)
 
 **Feature flags**
