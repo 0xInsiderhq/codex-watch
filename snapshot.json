@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "335c7f8ecab29c4462a553bbf174276d2c67a766",
-  "commit_date": "2026-10-04T21:08:31Z"
+  "sha": "685270a56a96c76ae5b0853373a19d6ed5bc6fd4",
+  "commit_date": "2026-10-05T23:52:06Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -395,7 +395,7 @@
    "default_enabled": false
   },
   "apply_patch_preserve_line_endings": {
-   "stage": "UnderDevelopment",
+   "stage": "Removed",
    "default_enabled": false
   },
   "exec_permission_approvals": {

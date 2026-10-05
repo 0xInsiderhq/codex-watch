@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-05 23:56 UTC · [`openai/codex@685270a56a96`](https://github.com/openai/codex/commit/685270a56a96c76ae5b0853373a19d6ed5bc6fd4)
+
+**Feature flags**
+- changed `apply_patch_preserve_line_endings` stage: "UnderDevelopment" → "Removed"
+
+**Commits that touched these files**
+- [#51203](https://github.com/openai/codex/pull/51203) Make apply_patch preserve line endings unconditionally (#51203) (2026-10-05 23:52 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/335c7f8ecab2...685270a56a96)
+
 ## 2026-10-04 21:11 UTC · [`openai/codex@335c7f8ecab2`](https://github.com/openai/codex/commit/335c7f8ecab29c4462a553bbf174276d2c67a766)
 
 **Feature flags**
