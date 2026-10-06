@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-06 03:48 UTC · [`openai/codex@162fcb3976e2`](https://github.com/openai/codex/commit/162fcb3976e292fb7492924f7d493fdfce328551)
+
+**Feature flags**
+- added `ultrafast_mode` (Stable, on by default)
+
+**Commits that touched these files**
+- [#51253](https://github.com/openai/codex/pull/51253) Enforce Fast and Ultra Fast policies independently (#51253) (2026-10-06 03:35 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/4d1579433666...162fcb3976e2)
+
 ## 2026-10-06 00:56 UTC · [`openai/codex@4d1579433666`](https://github.com/openai/codex/commit/4d15794336668d6098c0e36eb8e96cbbbfdb1d2d)
 
 **Feature flags**
