@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-06 00:56 UTC · [`openai/codex@4d1579433666`](https://github.com/openai/codex/commit/4d15794336668d6098c0e36eb8e96cbbbfdb1d2d)
+
+**Feature flags**
+- added `code_mode_tool_search` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#51209](https://github.com/openai/codex/pull/51209) Add ranked tool discovery to JavaScript code mode (#51209) (2026-10-06 00:36 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/5ad689169645...4d1579433666)
+
 ## 2026-10-06 00:29 UTC · [`openai/codex@5ad689169645`](https://github.com/openai/codex/commit/5ad689169645a953ec7380762c4ae596712057ee)
 
 **Feature flags**
