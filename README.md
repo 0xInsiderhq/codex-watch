@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-05 23:56 UTC · [`openai/codex@685270a56a96`](https://github.com/openai/codex/commit/685270a56a96c76ae5b0853373a19d6ed5bc6fd4)
+### 2026-10-06 00:29 UTC · [`openai/codex@5ad689169645`](https://github.com/openai/codex/commit/5ad689169645a953ec7380762c4ae596712057ee)
 
 **Feature flags**
-- changed `apply_patch_preserve_line_endings` stage: "UnderDevelopment" → "Removed"
+- added `cli_daybreak` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#51203](https://github.com/openai/codex/pull/51203) Make apply_patch preserve line endings unconditionally (#51203) (2026-10-05 23:52 UTC)
+- [#51207](https://github.com/openai/codex/pull/51207) Gate CLI Daybreak controls and selection behind an opt-in feature (#51207) (2026-10-06 00:16 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/335c7f8ecab2...685270a56a96)
+[Full diff since the last change](https://github.com/openai/codex/compare/685270a56a96...5ad689169645)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@685270a56a96`](https://github.com/openai/codex/commit/685270a56a96c76ae5b0853373a19d6ed5bc6fd4), committed 2026-10-05T23:52:06Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@5ad689169645`](https://github.com/openai/codex/commit/5ad689169645a953ec7380762c4ae596712057ee), committed 2026-10-06T00:16:44Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

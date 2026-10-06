@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-06 00:29 UTC · [`openai/codex@5ad689169645`](https://github.com/openai/codex/commit/5ad689169645a953ec7380762c4ae596712057ee)
+
+**Feature flags**
+- added `cli_daybreak` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#51207](https://github.com/openai/codex/pull/51207) Gate CLI Daybreak controls and selection behind an opt-in feature (#51207) (2026-10-06 00:16 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/685270a56a96...5ad689169645)
+
 ## 2026-10-05 23:56 UTC · [`openai/codex@685270a56a96`](https://github.com/openai/codex/commit/685270a56a96c76ae5b0853373a19d6ed5bc6fd4)
 
 **Feature flags**
