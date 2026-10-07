@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-07 13:48 UTC · [`openai/codex@95ec46861938`](https://github.com/openai/codex/commit/95ec468619386ebb93506ac2091a48e5a558d25c)
+
+**Feature flags**
+- added `code_mode_tool_description_first` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#51690](https://github.com/openai/codex/pull/51690) Add a feature flag for Code Mode tool description ordering (#51690) (2026-10-07 13:25 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/162fcb3976e2...95ec46861938)
+
 ## 2026-10-06 03:48 UTC · [`openai/codex@162fcb3976e2`](https://github.com/openai/codex/commit/162fcb3976e292fb7492924f7d493fdfce328551)
 
 **Feature flags**

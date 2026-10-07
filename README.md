@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-06 03:48 UTC · [`openai/codex@162fcb3976e2`](https://github.com/openai/codex/commit/162fcb3976e292fb7492924f7d493fdfce328551)
+### 2026-10-07 13:48 UTC · [`openai/codex@95ec46861938`](https://github.com/openai/codex/commit/95ec468619386ebb93506ac2091a48e5a558d25c)
 
 **Feature flags**
-- added `ultrafast_mode` (Stable, on by default)
+- added `code_mode_tool_description_first` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#51253](https://github.com/openai/codex/pull/51253) Enforce Fast and Ultra Fast policies independently (#51253) (2026-10-06 03:35 UTC)
+- [#51690](https://github.com/openai/codex/pull/51690) Add a feature flag for Code Mode tool description ordering (#51690) (2026-10-07 13:25 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/4d1579433666...162fcb3976e2)
+[Full diff since the last change](https://github.com/openai/codex/compare/162fcb3976e2...95ec46861938)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@162fcb3976e2`](https://github.com/openai/codex/commit/162fcb3976e292fb7492924f7d493fdfce328551), committed 2026-10-06T03:43:46Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@95ec46861938`](https://github.com/openai/codex/commit/95ec468619386ebb93506ac2091a48e5a558d25c), committed 2026-10-07T13:25:24Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
