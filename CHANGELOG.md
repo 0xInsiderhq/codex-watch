@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-07 19:45 UTC · [`openai/codex@406b0c44460c`](https://github.com/openai/codex/commit/406b0c44460cf71e90c21c7abe6e581add3a6421)
+
+**Feature flags**
+- changed `instant_interrupt` default_enabled: False → True
+
+**Commits that touched these files**
+- [#51812](https://github.com/openai/codex/pull/51812) Enable instant interrupts by default (#51812) (2026-10-07 19:42 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/95ec46861938...406b0c44460c)
+
 ## 2026-10-07 13:48 UTC · [`openai/codex@95ec46861938`](https://github.com/openai/codex/commit/95ec468619386ebb93506ac2091a48e5a558d25c)
 
 **Feature flags**
