@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-07 21:47 UTC · [`openai/codex@72c959528ee4`](https://github.com/openai/codex/commit/72c959528ee4ca74abdb8575fbbc4e36960a8c47)
+
+**Feature flags**
+- changed `code_mode_interrupt` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#51835](https://github.com/openai/codex/pull/51835) Enable code mode interruption by default (#51835) (2026-10-07 21:28 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/406b0c44460c...72c959528ee4)
+
 ## 2026-10-07 19:45 UTC · [`openai/codex@406b0c44460c`](https://github.com/openai/codex/commit/406b0c44460cf71e90c21c7abe6e581add3a6421)
 
 **Feature flags**
