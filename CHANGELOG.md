@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-08 20:19 UTC · [`openai/codex@3b6ab3471a2d`](https://github.com/openai/codex/commit/3b6ab3471a2d4d994c9fad322fca749564bc05e0)
+
+**Feature flags**
+- added `guardian_trust_orchestrator_connectors` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52250](https://github.com/openai/codex/pull/52250) Add opt-in Guardian trust for orchestrator connector identities (#52250) (2026-10-08 20:04 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/cd85a26cae00...3b6ab3471a2d)
+
 ## 2026-10-08 16:21 UTC · [`openai/codex@cd85a26cae00`](https://github.com/openai/codex/commit/cd85a26cae00385a0dd9247381ef5d1d7ffe9ef3)
 
 **Feature flags**

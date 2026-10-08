@@ -7,16 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-08 16:21 UTC · [`openai/codex@cd85a26cae00`](https://github.com/openai/codex/commit/cd85a26cae00385a0dd9247381ef5d1d7ffe9ef3)
+### 2026-10-08 20:19 UTC · [`openai/codex@3b6ab3471a2d`](https://github.com/openai/codex/commit/3b6ab3471a2d4d994c9fad322fca749564bc05e0)
 
 **Feature flags**
-- changed `shell_zsh_fork` stage: "UnderDevelopment" → "Removed"
-- changed `unified_exec_zsh_fork` default_enabled: True → False
+- added `guardian_trust_orchestrator_connectors` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#52160](https://github.com/openai/codex/pull/52160) Remove the patched zsh shell execution backend (#52160) (2026-10-08 16:19 UTC)
+- [#52250](https://github.com/openai/codex/pull/52250) Add opt-in Guardian trust for orchestrator connector identities (#52250) (2026-10-08 20:04 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/72c959528ee4...cd85a26cae00)
+[Full diff since the last change](https://github.com/openai/codex/compare/cd85a26cae00...3b6ab3471a2d)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@cd85a26cae00`](https://github.com/openai/codex/commit/cd85a26cae00385a0dd9247381ef5d1d7ffe9ef3), committed 2026-10-08T16:19:09Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@3b6ab3471a2d`](https://github.com/openai/codex/commit/3b6ab3471a2d4d994c9fad322fca749564bc05e0), committed 2026-10-08T20:11:43Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
