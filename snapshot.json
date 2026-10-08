@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "3b6ab3471a2d4d994c9fad322fca749564bc05e0",
-  "commit_date": "2026-10-08T20:11:43Z"
+  "sha": "99aa05341d1564cf4ca2b463c83b607ea5d1bb3e",
+  "commit_date": "2026-10-08T22:42:12Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -479,6 +479,10 @@
    "default_enabled": false,
    "name": "Network proxy",
    "description": "Apply network proxy restrictions to sandboxed sessions that already have network access."
+  },
+  "credential_masking": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "worktrees": {
    "stage": "Stable",

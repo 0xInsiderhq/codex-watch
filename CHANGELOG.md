@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-08 22:47 UTC · [`openai/codex@99aa05341d15`](https://github.com/openai/codex/commit/99aa05341d1564cf4ca2b463c83b607ea5d1bb3e)
+
+**Feature flags**
+- added `credential_masking` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52302](https://github.com/openai/codex/pull/52302) Add opt-in credential masking for proxied sandboxed sessions (#52302) (2026-10-08 22:27 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/3b6ab3471a2d...99aa05341d15)
+
 ## 2026-10-08 20:19 UTC · [`openai/codex@3b6ab3471a2d`](https://github.com/openai/codex/commit/3b6ab3471a2d4d994c9fad322fca749564bc05e0)
 
 **Feature flags**
