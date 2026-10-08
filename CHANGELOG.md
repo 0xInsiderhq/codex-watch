@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-08 16:21 UTC · [`openai/codex@cd85a26cae00`](https://github.com/openai/codex/commit/cd85a26cae00385a0dd9247381ef5d1d7ffe9ef3)
+
+**Feature flags**
+- changed `shell_zsh_fork` stage: "UnderDevelopment" → "Removed"
+- changed `unified_exec_zsh_fork` default_enabled: True → False
+
+**Commits that touched these files**
+- [#52160](https://github.com/openai/codex/pull/52160) Remove the patched zsh shell execution backend (#52160) (2026-10-08 16:19 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/72c959528ee4...cd85a26cae00)
+
 ## 2026-10-07 21:47 UTC · [`openai/codex@72c959528ee4`](https://github.com/openai/codex/commit/72c959528ee4ca74abdb8575fbbc4e36960a8c47)
 
 **Feature flags**

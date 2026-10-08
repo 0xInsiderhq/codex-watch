@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "72c959528ee4ca74abdb8575fbbc4e36960a8c47",
-  "commit_date": "2026-10-07T21:28:56Z"
+  "sha": "cd85a26cae00385a0dd9247381ef5d1d7ffe9ef3",
+  "commit_date": "2026-10-08T16:19:09Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -245,12 +245,12 @@
    "default_enabled": true
   },
   "shell_zsh_fork": {
-   "stage": "UnderDevelopment",
+   "stage": "Removed",
    "default_enabled": false
   },
   "unified_exec_zsh_fork": {
    "stage": "Removed",
-   "default_enabled": true
+   "default_enabled": false
   },
   "shell_snapshot": {
    "stage": "Stable",
