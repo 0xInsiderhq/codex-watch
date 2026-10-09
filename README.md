@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-08 22:47 UTC · [`openai/codex@99aa05341d15`](https://github.com/openai/codex/commit/99aa05341d1564cf4ca2b463c83b607ea5d1bb3e)
+### 2026-10-09 18:19 UTC · [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030)
 
 **Feature flags**
-- added `credential_masking` (UnderDevelopment, off by default)
+- added `subagent_default_context_limits` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#52302](https://github.com/openai/codex/pull/52302) Add opt-in credential masking for proxied sandboxed sessions (#52302) (2026-10-08 22:27 UTC)
+- [#52659](https://github.com/openai/codex/pull/52659) Add an opt-in feature for subagent model context defaults (#52659) (2026-10-09 17:48 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/3b6ab3471a2d...99aa05341d15)
+[Full diff since the last change](https://github.com/openai/codex/compare/99aa05341d15...65b82cdf96f9)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@99aa05341d15`](https://github.com/openai/codex/commit/99aa05341d1564cf4ca2b463c83b607ea5d1bb3e), committed 2026-10-08T22:42:12Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030), committed 2026-10-09T18:04:48Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

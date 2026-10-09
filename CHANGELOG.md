@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-09 18:19 UTC · [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030)
+
+**Feature flags**
+- added `subagent_default_context_limits` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52659](https://github.com/openai/codex/pull/52659) Add an opt-in feature for subagent model context defaults (#52659) (2026-10-09 17:48 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/99aa05341d15...65b82cdf96f9)
+
 ## 2026-10-08 22:47 UTC · [`openai/codex@99aa05341d15`](https://github.com/openai/codex/commit/99aa05341d1564cf4ca2b463c83b607ea5d1bb3e)
 
 **Feature flags**
