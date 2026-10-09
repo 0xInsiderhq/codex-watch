@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-09 18:19 UTC · [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030)
+### 2026-10-09 23:45 UTC · [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da)
 
 **Feature flags**
-- added `subagent_default_context_limits` (UnderDevelopment, off by default)
+- added `code_mode_host_grpc` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#52659](https://github.com/openai/codex/pull/52659) Add an opt-in feature for subagent model context defaults (#52659) (2026-10-09 17:48 UTC)
+- [#52723](https://github.com/openai/codex/pull/52723) Add opt-in gRPC over stdio for the code-mode host (#52723) (2026-10-09 23:26 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/99aa05341d15...65b82cdf96f9)
+[Full diff since the last change](https://github.com/openai/codex/compare/65b82cdf96f9...4bad6d78e9b5)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030), committed 2026-10-09T18:04:48Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da), committed 2026-10-09T23:43:10Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

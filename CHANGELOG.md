@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-09 23:45 UTC · [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da)
+
+**Feature flags**
+- added `code_mode_host_grpc` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52723](https://github.com/openai/codex/pull/52723) Add opt-in gRPC over stdio for the code-mode host (#52723) (2026-10-09 23:26 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/65b82cdf96f9...4bad6d78e9b5)
+
 ## 2026-10-09 18:19 UTC · [`openai/codex@65b82cdf96f9`](https://github.com/openai/codex/commit/65b82cdf96f9d305494bc8c6c8d2404d37709030)
 
 **Feature flags**
