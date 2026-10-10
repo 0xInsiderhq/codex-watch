@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-10 01:47 UTC · [`openai/codex@5ef96ab2785f`](https://github.com/openai/codex/commit/5ef96ab2785f3ecddf279639eff7b1b42c906fa4)
+
+**Feature flags**
+- added `output_token_replay` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52742](https://github.com/openai/codex/pull/52742) Add opt-in output token replay for OpenAI requests (#52742) (2026-10-10 01:25 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/4bad6d78e9b5...5ef96ab2785f)
+
 ## 2026-10-09 23:45 UTC · [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da)
 
 **Feature flags**

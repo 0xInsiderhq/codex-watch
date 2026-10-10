@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-09 23:45 UTC · [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da)
+### 2026-10-10 01:47 UTC · [`openai/codex@5ef96ab2785f`](https://github.com/openai/codex/commit/5ef96ab2785f3ecddf279639eff7b1b42c906fa4)
 
 **Feature flags**
-- added `code_mode_host_grpc` (UnderDevelopment, off by default)
+- added `output_token_replay` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#52723](https://github.com/openai/codex/pull/52723) Add opt-in gRPC over stdio for the code-mode host (#52723) (2026-10-09 23:26 UTC)
+- [#52742](https://github.com/openai/codex/pull/52742) Add opt-in output token replay for OpenAI requests (#52742) (2026-10-10 01:25 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/65b82cdf96f9...4bad6d78e9b5)
+[Full diff since the last change](https://github.com/openai/codex/compare/4bad6d78e9b5...5ef96ab2785f)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@4bad6d78e9b5`](https://github.com/openai/codex/commit/4bad6d78e9b50f9fa8bd941f1db012ed491ad2da), committed 2026-10-09T23:43:10Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@5ef96ab2785f`](https://github.com/openai/codex/commit/5ef96ab2785f3ecddf279639eff7b1b42c906fa4), committed 2026-10-10T01:25:00Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
