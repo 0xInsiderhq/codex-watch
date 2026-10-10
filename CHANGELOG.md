@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-10 17:34 UTC · [`openai/codex@6c0c6759d061`](https://github.com/openai/codex/commit/6c0c6759d0617d7670826b61aca0a931bbb6db1f)
+
+**Feature flags**
+- added `retain_client_tool_outputs` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#52937](https://github.com/openai/codex/pull/52937) Retain client-marked tool outputs across compaction (#52937) (2026-10-10 17:30 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/5ef96ab2785f...6c0c6759d061)
+
 ## 2026-10-10 01:47 UTC · [`openai/codex@5ef96ab2785f`](https://github.com/openai/codex/commit/5ef96ab2785f3ecddf279639eff7b1b42c906fa4)
 
 **Feature flags**
