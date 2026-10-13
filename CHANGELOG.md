@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-13 07:51 UTC · [`openai/codex@669449b02c4b`](https://github.com/openai/codex/commit/669449b02c4b58de4bcd22485eb60c98a6e38a54)
+
+**Feature flags**
+- added `async_compaction` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#53595](https://github.com/openai/codex/pull/53595) Add async compaction feature configuration (#53595) (2026-10-13 07:32 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/6c0c6759d061...669449b02c4b)
+
 ## 2026-10-10 17:34 UTC · [`openai/codex@6c0c6759d061`](https://github.com/openai/codex/commit/6c0c6759d0617d7670826b61aca0a931bbb6db1f)
 
 **Feature flags**

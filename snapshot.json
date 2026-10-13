@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "6c0c6759d0617d7670826b61aca0a931bbb6db1f",
-  "commit_date": "2026-10-10T17:30:25Z"
+  "sha": "669449b02c4b58de4bcd22485eb60c98a6e38a54",
+  "commit_date": "2026-10-13T07:32:21Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -884,6 +884,10 @@
   },
   "remote_compaction_v2": {
    "stage": "Removed",
+   "default_enabled": false
+  },
+  "async_compaction": {
+   "stage": "UnderDevelopment",
    "default_enabled": false
   },
   "compaction_image_budget": {
