@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-13 15:38 UTC · [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7)
+
+**Feature flags**
+- changed `cli_daybreak` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#53701](https://github.com/openai/codex/pull/53701) Enable CLI Daybreak by default and enforce background-turn eligibility (#53701) (2026-10-13 15:33 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/669449b02c4b...6fbfc352cafb)
+
 ## 2026-10-13 07:51 UTC · [`openai/codex@669449b02c4b`](https://github.com/openai/codex/commit/669449b02c4b58de4bcd22485eb60c98a6e38a54)
 
 **Feature flags**

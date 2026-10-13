@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-13 07:51 UTC · [`openai/codex@669449b02c4b`](https://github.com/openai/codex/commit/669449b02c4b58de4bcd22485eb60c98a6e38a54)
+### 2026-10-13 15:38 UTC · [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7)
 
 **Feature flags**
-- added `async_compaction` (UnderDevelopment, off by default)
+- changed `cli_daybreak` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#53595](https://github.com/openai/codex/pull/53595) Add async compaction feature configuration (#53595) (2026-10-13 07:32 UTC)
+- [#53701](https://github.com/openai/codex/pull/53701) Enable CLI Daybreak by default and enforce background-turn eligibility (#53701) (2026-10-13 15:33 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/6c0c6759d061...669449b02c4b)
+[Full diff since the last change](https://github.com/openai/codex/compare/669449b02c4b...6fbfc352cafb)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@669449b02c4b`](https://github.com/openai/codex/commit/669449b02c4b58de4bcd22485eb60c98a6e38a54), committed 2026-10-13T07:32:21Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7), committed 2026-10-13T15:33:50Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
