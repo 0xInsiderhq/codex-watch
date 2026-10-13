@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-13 17:02 UTC · [`openai/codex@6cc7d9cc5c70`](https://github.com/openai/codex/commit/6cc7d9cc5c702c0ca133f7ea48432166e0b880be)
+
+**Feature flags**
+- changed `api_key_cyber_access_programs` default_enabled: False → True
+
+**Commits that touched these files**
+- [#53717](https://github.com/openai/codex/pull/53717) Enable Cyber access programs for API-key sessions by default (#53717) (2026-10-13 16:57 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/6fbfc352cafb...6cc7d9cc5c70)
+
 ## 2026-10-13 15:38 UTC · [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7)
 
 **Feature flags**

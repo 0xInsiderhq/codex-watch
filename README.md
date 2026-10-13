@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-13 15:38 UTC · [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7)
+### 2026-10-13 17:02 UTC · [`openai/codex@6cc7d9cc5c70`](https://github.com/openai/codex/commit/6cc7d9cc5c702c0ca133f7ea48432166e0b880be)
 
 **Feature flags**
-- changed `cli_daybreak` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- changed `api_key_cyber_access_programs` default_enabled: False → True
 
 **Commits that touched these files**
-- [#53701](https://github.com/openai/codex/pull/53701) Enable CLI Daybreak by default and enforce background-turn eligibility (#53701) (2026-10-13 15:33 UTC)
+- [#53717](https://github.com/openai/codex/pull/53717) Enable Cyber access programs for API-key sessions by default (#53717) (2026-10-13 16:57 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/669449b02c4b...6fbfc352cafb)
+[Full diff since the last change](https://github.com/openai/codex/compare/6fbfc352cafb...6cc7d9cc5c70)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@6fbfc352cafb`](https://github.com/openai/codex/commit/6fbfc352cafb50332d62dbdc8720cb5d7fe3b7c7), committed 2026-10-13T15:33:50Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@6cc7d9cc5c70`](https://github.com/openai/codex/commit/6cc7d9cc5c702c0ca133f7ea48432166e0b880be), committed 2026-10-13T16:57:54Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
