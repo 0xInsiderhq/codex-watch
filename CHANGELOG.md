@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-13 18:43 UTC · [`openai/codex@cf0ed4c60016`](https://github.com/openai/codex/commit/cf0ed4c600161fcaa18eeac02b5fc715e1076955)
+
+**Feature flags**
+- added `executor_capability_discovery_v2` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#53736](https://github.com/openai/codex/pull/53736) Acquire and cache opt-in executor capability inventories via V2 (#53736) (2026-10-13 18:15 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/6cc7d9cc5c70...cf0ed4c60016)
+
 ## 2026-10-13 17:02 UTC · [`openai/codex@6cc7d9cc5c70`](https://github.com/openai/codex/commit/6cc7d9cc5c702c0ca133f7ea48432166e0b880be)
 
 **Feature flags**
