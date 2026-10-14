@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-14 21:27 UTC · [`openai/codex@1ffa95ee8a02`](https://github.com/openai/codex/commit/1ffa95ee8a02ec68f6ccd758998bcb7d4b32bcdb)
+
+**Feature flags**
+- changed `stable_environment_tools` stage: "UnderDevelopment" → "Removed"
+
+**Commits that touched these files**
+- [#54098](https://github.com/openai/codex/pull/54098) Keep environment tools stable across readiness changes (#54098) (2026-10-14 21:06 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/cf0ed4c60016...1ffa95ee8a02)
+
 ## 2026-10-13 18:43 UTC · [`openai/codex@cf0ed4c60016`](https://github.com/openai/codex/commit/cf0ed4c600161fcaa18eeac02b5fc715e1076955)
 
 **Feature flags**
