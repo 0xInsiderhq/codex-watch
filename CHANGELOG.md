@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-15 04:05 UTC · [`openai/codex@bb64b894fd67`](https://github.com/openai/codex/commit/bb64b894fd67158be0f874872e6d7bfe717e7368)
+
+**Feature flags**
+- changed `realtime_conversation` stage: "Stable" → "Removed"
+- changed `worktrees` stage: "Stable" → "Removed"
+
+**Commits that touched these files**
+- [#54175](https://github.com/openai/codex/pull/54175) Retire worktree and voice feature flags (#54175) (2026-10-15 03:48 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/160b2b1ef621...bb64b894fd67)
+
 ## 2026-10-15 03:28 UTC · [`openai/codex@160b2b1ef621`](https://github.com/openai/codex/commit/160b2b1ef62114eeb41e41e5e3be0000d944b713)
 
 **chatgpt.com / openai.com URLs**

@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "160b2b1ef62114eeb41e41e5e3be0000d944b713",
-  "commit_date": "2026-10-15T03:07:27Z"
+  "sha": "bb64b894fd67158be0f874872e6d7bfe717e7368",
+  "commit_date": "2026-10-15T03:48:33Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -489,7 +489,7 @@
    "default_enabled": false
   },
   "worktrees": {
-   "stage": "Stable",
+   "stage": "Removed",
    "default_enabled": true
   },
   "respect_system_proxy": {
@@ -853,7 +853,7 @@
    "default_enabled": false
   },
   "realtime_conversation": {
-   "stage": "Stable",
+   "stage": "Removed",
    "default_enabled": true
   },
   "remote_control": {
