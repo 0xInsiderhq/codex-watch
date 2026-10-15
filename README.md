@@ -7,15 +7,12 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-14 21:27 UTC · [`openai/codex@1ffa95ee8a02`](https://github.com/openai/codex/commit/1ffa95ee8a02ec68f6ccd758998bcb7d4b32bcdb)
+### 2026-10-15 03:28 UTC · [`openai/codex@160b2b1ef621`](https://github.com/openai/codex/commit/160b2b1ef62114eeb41e41e5e3be0000d944b713)
 
-**Feature flags**
-- changed `stable_environment_tools` stage: "UnderDevelopment" → "Removed"
+**chatgpt.com / openai.com URLs**
+- added `https://gov.chatgpt.com`
 
-**Commits that touched these files**
-- [#54098](https://github.com/openai/codex/pull/54098) Keep environment tools stable across readiness changes (#54098) (2026-10-14 21:06 UTC)
-
-[Full diff since the last change](https://github.com/openai/codex/compare/cf0ed4c60016...1ffa95ee8a02)
+[Full diff since the last change](https://github.com/openai/codex/compare/1ffa95ee8a02...160b2b1ef621)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +47,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@1ffa95ee8a02`](https://github.com/openai/codex/commit/1ffa95ee8a02ec68f6ccd758998bcb7d4b32bcdb), committed 2026-10-14T21:11:58Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@160b2b1ef621`](https://github.com/openai/codex/commit/160b2b1ef62114eeb41e41e5e3be0000d944b713), committed 2026-10-15T03:07:27Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

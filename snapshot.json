@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "1ffa95ee8a02ec68f6ccd758998bcb7d4b32bcdb",
-  "commit_date": "2026-10-14T21:11:58Z"
+  "sha": "160b2b1ef62114eeb41e41e5e3be0000d944b713",
+  "commit_date": "2026-10-15T03:07:27Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -1033,6 +1033,7 @@
   "https://developers.openai.com/codex/windows",
   "https://developers.openai.com/mcp",
   "https://developers.openai.com/mcp?source=codex",
+  "https://gov.chatgpt.com",
   "https://help.openai.com/en/articles/11487775-apps-in-chatgpt",
   "https://help.openai.com/en/articles/20001326",
   "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
