@@ -7,16 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-15 04:05 UTC · [`openai/codex@bb64b894fd67`](https://github.com/openai/codex/commit/bb64b894fd67158be0f874872e6d7bfe717e7368)
+### 2026-10-16 17:04 UTC · [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9)
 
 **Feature flags**
-- changed `realtime_conversation` stage: "Stable" → "Removed"
-- changed `worktrees` stage: "Stable" → "Removed"
+- added `mcp_tool_list_changed` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#54175](https://github.com/openai/codex/pull/54175) Retire worktree and voice feature flags (#54175) (2026-10-15 03:48 UTC)
+- [#54656](https://github.com/openai/codex/pull/54656) Honor MCP tool-list changes within a turn (#54656) (2026-10-16 16:40 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/160b2b1ef621...bb64b894fd67)
+[Full diff since the last change](https://github.com/openai/codex/compare/bb64b894fd67...0df4aa67781a)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@bb64b894fd67`](https://github.com/openai/codex/commit/bb64b894fd67158be0f874872e6d7bfe717e7368), committed 2026-10-15T03:48:33Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9), committed 2026-10-16T16:40:17Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

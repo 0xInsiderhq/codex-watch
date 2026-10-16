@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-16 17:04 UTC · [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9)
+
+**Feature flags**
+- added `mcp_tool_list_changed` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#54656](https://github.com/openai/codex/pull/54656) Honor MCP tool-list changes within a turn (#54656) (2026-10-16 16:40 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/bb64b894fd67...0df4aa67781a)
+
 ## 2026-10-15 04:05 UTC · [`openai/codex@bb64b894fd67`](https://github.com/openai/codex/commit/bb64b894fd67158be0f874872e6d7bfe717e7368)
 
 **Feature flags**
