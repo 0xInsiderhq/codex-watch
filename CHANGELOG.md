@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-17 23:50 UTC · [`openai/codex@7b44ac166143`](https://github.com/openai/codex/commit/7b44ac1661433ae3a6f375fde873fa7123c935fe)
+
+**Feature flags**
+- added `app_server_websocket_compression` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#54949](https://github.com/openai/codex/pull/54949) Gate app-server WebSocket compression behind a feature flag (#54949) (2026-10-17 23:34 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/5009a99dfc07...7b44ac166143)
+
 ## 2026-10-17 00:35 UTC · [`openai/codex@5009a99dfc07`](https://github.com/openai/codex/commit/5009a99dfc07830ddf7464c26f310a2b8532b55d)
 
 **Feature flags**
