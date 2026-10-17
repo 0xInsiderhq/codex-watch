@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-17 00:35 UTC · [`openai/codex@5009a99dfc07`](https://github.com/openai/codex/commit/5009a99dfc07830ddf7464c26f310a2b8532b55d)
+
+**Feature flags**
+- added `multi_env_copy_file` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#54741](https://github.com/openai/codex/pull/54741) Gate the file-copy extension behind `multi_env_copy_file` (#54741) (2026-10-17 00:02 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/0df4aa67781a...5009a99dfc07)
+
 ## 2026-10-16 17:04 UTC · [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9)
 
 **Feature flags**

@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-16 17:04 UTC · [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9)
+### 2026-10-17 00:35 UTC · [`openai/codex@5009a99dfc07`](https://github.com/openai/codex/commit/5009a99dfc07830ddf7464c26f310a2b8532b55d)
 
 **Feature flags**
-- added `mcp_tool_list_changed` (UnderDevelopment, off by default)
+- added `multi_env_copy_file` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#54656](https://github.com/openai/codex/pull/54656) Honor MCP tool-list changes within a turn (#54656) (2026-10-16 16:40 UTC)
+- [#54741](https://github.com/openai/codex/pull/54741) Gate the file-copy extension behind `multi_env_copy_file` (#54741) (2026-10-17 00:02 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/bb64b894fd67...0df4aa67781a)
+[Full diff since the last change](https://github.com/openai/codex/compare/0df4aa67781a...5009a99dfc07)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@0df4aa67781a`](https://github.com/openai/codex/commit/0df4aa67781ae45a3c97befa4db48b734afe46d9), committed 2026-10-16T16:40:17Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@5009a99dfc07`](https://github.com/openai/codex/commit/5009a99dfc07830ddf7464c26f310a2b8532b55d), committed 2026-10-17T00:03:04Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
