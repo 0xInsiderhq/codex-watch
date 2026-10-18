@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "7b44ac1661433ae3a6f375fde873fa7123c935fe",
-  "commit_date": "2026-10-17T23:34:04Z"
+  "sha": "8c076942cb70fba8e5c4732c23f1faabc4aed484",
+  "commit_date": "2026-10-18T01:58:02Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -529,6 +529,10 @@
    "default_enabled": false
   },
   "defer_mailbox_preemption": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "wake_on_agent_messages": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },

@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-18 02:00 UTC · [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484)
+
+**Feature flags**
+- added `wake_on_agent_messages` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#54961](https://github.com/openai/codex/pull/54961) Allow agent messages to wake idle root sessions behind a feature flag (#54961) (2026-10-18 01:58 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/7b44ac166143...8c076942cb70)
+
 ## 2026-10-17 23:50 UTC · [`openai/codex@7b44ac166143`](https://github.com/openai/codex/commit/7b44ac1661433ae3a6f375fde873fa7123c935fe)
 
 **Feature flags**

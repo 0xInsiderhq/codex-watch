@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-17 23:50 UTC · [`openai/codex@7b44ac166143`](https://github.com/openai/codex/commit/7b44ac1661433ae3a6f375fde873fa7123c935fe)
+### 2026-10-18 02:00 UTC · [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484)
 
 **Feature flags**
-- added `app_server_websocket_compression` (UnderDevelopment, off by default)
+- added `wake_on_agent_messages` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#54949](https://github.com/openai/codex/pull/54949) Gate app-server WebSocket compression behind a feature flag (#54949) (2026-10-17 23:34 UTC)
+- [#54961](https://github.com/openai/codex/pull/54961) Allow agent messages to wake idle root sessions behind a feature flag (#54961) (2026-10-18 01:58 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/5009a99dfc07...7b44ac166143)
+[Full diff since the last change](https://github.com/openai/codex/compare/7b44ac166143...8c076942cb70)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@7b44ac166143`](https://github.com/openai/codex/commit/7b44ac1661433ae3a6f375fde873fa7123c935fe), committed 2026-10-17T23:34:04Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484), committed 2026-10-18T01:58:02Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
