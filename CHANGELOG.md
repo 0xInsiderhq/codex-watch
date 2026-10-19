@@ -2,6 +2,21 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-19 22:02 UTC · [`openai/codex@e64530972398`](https://github.com/openai/codex/commit/e64530972398604464a6aa0d1ace7b9399e9e942)
+
+**Plan types**
+- added `Sci`
+- added `SciPlus`
+
+**Feature flags**
+- changed `transcript_v2` stage: "Deprecated" → "Removed"
+
+**Commits that touched these files**
+- [#55387](https://github.com/openai/codex/pull/55387) Add support for Academic Researchers plans (#55387) (2026-10-19 21:43 UTC)
+- [#55388](https://github.com/openai/codex/pull/55388) Mark `transcript_v2` as removed (#55388) (2026-10-19 21:44 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/e389b2444c75...e64530972398)
+
 ## 2026-10-19 20:48 UTC · [`openai/codex@e389b2444c75`](https://github.com/openai/codex/commit/e389b2444c75cbc92d40b2135ca5db300d076979)
 
 **Feature flags**

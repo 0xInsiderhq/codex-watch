@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "e389b2444c75cbc92d40b2135ca5db300d076979",
-  "commit_date": "2026-10-19T20:30:44Z"
+  "sha": "e64530972398604464a6aa0d1ace7b9399e9e942",
+  "commit_date": "2026-10-19T22:01:41Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -217,7 +217,7 @@
    "default_enabled": false
   },
   "transcript_v2": {
-   "stage": "Deprecated",
+   "stage": "Removed",
    "default_enabled": false
   },
   "undo": {
@@ -973,6 +973,8 @@
   "Edu",
   "EduPlus",
   "EduPro",
+  "Sci",
+  "SciPlus",
   "Unknown"
  ],
  "model_ids": {
