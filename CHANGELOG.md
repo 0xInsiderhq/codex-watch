@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-19 20:48 UTC · [`openai/codex@e389b2444c75`](https://github.com/openai/codex/commit/e389b2444c75cbc92d40b2135ca5db300d076979)
+
+**Feature flags**
+- added `subagent_thread_environments` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#55375](https://github.com/openai/codex/pull/55375) Add configured thread environment inheritance for subagents (#55375) (2026-10-19 20:30 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/c953dacb42d2...e389b2444c75)
+
 ## 2026-10-19 20:04 UTC · [`openai/codex@c953dacb42d2`](https://github.com/openai/codex/commit/c953dacb42d2773d0ca9cc25a01129bba2ca36a8)
 
 **Feature flags**
