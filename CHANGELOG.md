@@ -2,6 +2,13 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-19 23:13 UTC · [`openai/codex@79a19cbb3008`](https://github.com/openai/codex/commit/79a19cbb3008afe2882ccc2c5d93f02cde9a0823)
+
+**chatgpt.com / openai.com URLs**
+- added `https://auth.openai.com/agent/register`
+
+[Full diff since the last change](https://github.com/openai/codex/compare/e64530972398...79a19cbb3008)
+
 ## 2026-10-19 22:02 UTC · [`openai/codex@e64530972398`](https://github.com/openai/codex/commit/e64530972398604464a6aa0d1ace7b9399e9e942)
 
 **Plan types**

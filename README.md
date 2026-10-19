@@ -7,20 +7,12 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-19 22:02 UTC · [`openai/codex@e64530972398`](https://github.com/openai/codex/commit/e64530972398604464a6aa0d1ace7b9399e9e942)
+### 2026-10-19 23:13 UTC · [`openai/codex@79a19cbb3008`](https://github.com/openai/codex/commit/79a19cbb3008afe2882ccc2c5d93f02cde9a0823)
 
-**Plan types**
-- added `Sci`
-- added `SciPlus`
+**chatgpt.com / openai.com URLs**
+- added `https://auth.openai.com/agent/register`
 
-**Feature flags**
-- changed `transcript_v2` stage: "Deprecated" → "Removed"
-
-**Commits that touched these files**
-- [#55387](https://github.com/openai/codex/pull/55387) Add support for Academic Researchers plans (#55387) (2026-10-19 21:43 UTC)
-- [#55388](https://github.com/openai/codex/pull/55388) Mark `transcript_v2` as removed (#55388) (2026-10-19 21:44 UTC)
-
-[Full diff since the last change](https://github.com/openai/codex/compare/e389b2444c75...e64530972398)
+[Full diff since the last change](https://github.com/openai/codex/compare/e64530972398...79a19cbb3008)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -55,7 +47,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@e64530972398`](https://github.com/openai/codex/commit/e64530972398604464a6aa0d1ace7b9399e9e942), committed 2026-10-19T22:01:41Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@79a19cbb3008`](https://github.com/openai/codex/commit/79a19cbb3008afe2882ccc2c5d93f02cde9a0823), committed 2026-10-19T23:01:54Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

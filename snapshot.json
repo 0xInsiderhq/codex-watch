@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "e64530972398604464a6aa0d1ace7b9399e9e942",
-  "commit_date": "2026-10-19T22:01:41Z"
+  "sha": "79a19cbb3008afe2882ccc2c5d93f02cde9a0823",
+  "commit_date": "2026-10-19T23:01:54Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -1018,6 +1018,7 @@
   "https://api.openai.com/v1/decisions",
   "https://api.openai.com/v1/responses",
   "https://auth.openai.com",
+  "https://auth.openai.com/agent/register",
   "https://auth.openai.com/api/accounts",
   "https://auth.openai.com/oauth/token",
   "https://chat.openai.com",
