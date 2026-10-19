@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-19 20:04 UTC · [`openai/codex@c953dacb42d2`](https://github.com/openai/codex/commit/c953dacb42d2773d0ca9cc25a01129bba2ca36a8)
+
+**Feature flags**
+- changed `incremental_tools` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#55327](https://github.com/openai/codex/pull/55327) Add configured thread environment inheritance for subagents (#55327) (2026-10-19 17:16 UTC)
+- [#55331](https://github.com/openai/codex/pull/55331) Use step environment snapshots for subagent inheritance (#55331) (2026-10-19 17:43 UTC)
+- [#55368](https://github.com/openai/codex/pull/55368) Enable incremental tools by default for Responses Lite (#55368) (2026-10-19 20:01 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/8c076942cb70...c953dacb42d2)
+
 ## 2026-10-18 02:00 UTC · [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484)
 
 **Feature flags**

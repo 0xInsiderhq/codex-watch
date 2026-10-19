@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-18 02:00 UTC · [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484)
+### 2026-10-19 20:04 UTC · [`openai/codex@c953dacb42d2`](https://github.com/openai/codex/commit/c953dacb42d2773d0ca9cc25a01129bba2ca36a8)
 
 **Feature flags**
-- added `wake_on_agent_messages` (UnderDevelopment, off by default)
+- changed `incremental_tools` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#54961](https://github.com/openai/codex/pull/54961) Allow agent messages to wake idle root sessions behind a feature flag (#54961) (2026-10-18 01:58 UTC)
+- [#55327](https://github.com/openai/codex/pull/55327) Add configured thread environment inheritance for subagents (#55327) (2026-10-19 17:16 UTC)
+- [#55331](https://github.com/openai/codex/pull/55331) Use step environment snapshots for subagent inheritance (#55331) (2026-10-19 17:43 UTC)
+- [#55368](https://github.com/openai/codex/pull/55368) Enable incremental tools by default for Responses Lite (#55368) (2026-10-19 20:01 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/7b44ac166143...8c076942cb70)
+[Full diff since the last change](https://github.com/openai/codex/compare/8c076942cb70...c953dacb42d2)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +52,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@8c076942cb70`](https://github.com/openai/codex/commit/8c076942cb70fba8e5c4732c23f1faabc4aed484), committed 2026-10-18T01:58:02Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@c953dacb42d2`](https://github.com/openai/codex/commit/c953dacb42d2773d0ca9cc25a01129bba2ca36a8), committed 2026-10-19T20:01:37Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
