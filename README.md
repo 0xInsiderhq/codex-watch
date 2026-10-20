@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-20 17:39 UTC · [`openai/codex@cb00a6756945`](https://github.com/openai/codex/commit/cb00a67569450aea2fdb1b1f31fc042fc0b5416f)
+### 2026-10-20 23:55 UTC · [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18)
 
 **Feature flags**
-- added `runtime_agent_instances` (UnderDevelopment, off by default)
+- changed `mcp_oauth_refresh_coordination` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#55636](https://github.com/openai/codex/pull/55636) Add runtime assertion authentication modes and an auth provider (#55636) (2026-10-20 17:29 UTC)
+- [#55701](https://github.com/openai/codex/pull/55701) Enable MCP OAuth refresh coordination by default (#55701) (2026-10-20 23:42 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/79a19cbb3008...cb00a6756945)
+[Full diff since the last change](https://github.com/openai/codex/compare/cb00a6756945...35757adb728b)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@cb00a6756945`](https://github.com/openai/codex/commit/cb00a67569450aea2fdb1b1f31fc042fc0b5416f), committed 2026-10-20T17:29:40Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18), committed 2026-10-20T23:42:20Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

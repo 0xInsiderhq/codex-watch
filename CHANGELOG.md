@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-20 23:55 UTC · [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18)
+
+**Feature flags**
+- changed `mcp_oauth_refresh_coordination` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#55701](https://github.com/openai/codex/pull/55701) Enable MCP OAuth refresh coordination by default (#55701) (2026-10-20 23:42 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/cb00a6756945...35757adb728b)
+
 ## 2026-10-20 17:39 UTC · [`openai/codex@cb00a6756945`](https://github.com/openai/codex/commit/cb00a67569450aea2fdb1b1f31fc042fc0b5416f)
 
 **Feature flags**
