@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-20 17:39 UTC · [`openai/codex@cb00a6756945`](https://github.com/openai/codex/commit/cb00a67569450aea2fdb1b1f31fc042fc0b5416f)
+
+**Feature flags**
+- added `runtime_agent_instances` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#55636](https://github.com/openai/codex/pull/55636) Add runtime assertion authentication modes and an auth provider (#55636) (2026-10-20 17:29 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/79a19cbb3008...cb00a6756945)
+
 ## 2026-10-19 23:13 UTC · [`openai/codex@79a19cbb3008`](https://github.com/openai/codex/commit/79a19cbb3008afe2882ccc2c5d93f02cde9a0823)
 
 **chatgpt.com / openai.com URLs**
