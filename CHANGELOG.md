@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-22 01:19 UTC · [`openai/codex@45179176e52a`](https://github.com/openai/codex/commit/45179176e52ab890a3cf5ce47e8ab585e7295f7e)
+
+**Feature flags**
+- changed `bedrock_setup_wizard` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#56033](https://github.com/openai/codex/pull/56033) Enable the Bedrock setup wizard by default (#56033) (2026-10-22 00:50 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/35757adb728b...45179176e52a)
+
 ## 2026-10-20 23:55 UTC · [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18)
 
 **Feature flags**

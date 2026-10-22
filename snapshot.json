@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "35757adb728b268a1e75eabeb3e4cf9a6def5c18",
-  "commit_date": "2026-10-20T23:42:20Z"
+  "sha": "45179176e52ab890a3cf5ce47e8ab585e7295f7e",
+  "commit_date": "2026-10-22T01:14:34Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -849,8 +849,8 @@
    "default_enabled": true
   },
   "bedrock_setup_wizard": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Stable",
+   "default_enabled": true
   },
   "personality": {
    "stage": "Removed",

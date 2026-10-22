@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-20 23:55 UTC · [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18)
+### 2026-10-22 01:19 UTC · [`openai/codex@45179176e52a`](https://github.com/openai/codex/commit/45179176e52ab890a3cf5ce47e8ab585e7295f7e)
 
 **Feature flags**
-- changed `mcp_oauth_refresh_coordination` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- changed `bedrock_setup_wizard` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#55701](https://github.com/openai/codex/pull/55701) Enable MCP OAuth refresh coordination by default (#55701) (2026-10-20 23:42 UTC)
+- [#56033](https://github.com/openai/codex/pull/56033) Enable the Bedrock setup wizard by default (#56033) (2026-10-22 00:50 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/cb00a6756945...35757adb728b)
+[Full diff since the last change](https://github.com/openai/codex/compare/35757adb728b...45179176e52a)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@35757adb728b`](https://github.com/openai/codex/commit/35757adb728b268a1e75eabeb3e4cf9a6def5c18), committed 2026-10-20T23:42:20Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@45179176e52a`](https://github.com/openai/codex/commit/45179176e52ab890a3cf5ce47e8ab585e7295f7e), committed 2026-10-22T01:14:34Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
