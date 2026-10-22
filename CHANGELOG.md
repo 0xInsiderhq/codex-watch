@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-22 07:04 UTC · [`openai/codex@86e17e98c7f9`](https://github.com/openai/codex/commit/86e17e98c7f901277aeeb4649cf1b01462b082f2)
+
+**Feature flags**
+- added `tui_multi_backend` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#56097](https://github.com/openai/codex/pull/56097) Prepare TUI startup to accept multiple backend sessions (#56097) (2026-10-22 06:32 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/45179176e52a...86e17e98c7f9)
+
 ## 2026-10-22 01:19 UTC · [`openai/codex@45179176e52a`](https://github.com/openai/codex/commit/45179176e52ab890a3cf5ce47e8ab585e7295f7e)
 
 **Feature flags**
