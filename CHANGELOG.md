@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-22 10:08 UTC · [`openai/codex@b337fe06b7d8`](https://github.com/openai/codex/commit/b337fe06b7d8d6e5b42295e04c5e92c2b9c46567)
+
+**Feature flags**
+- added `guardian_recorded_items` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#56124](https://github.com/openai/codex/pull/56124) Forward Guardian reviewer events to parent raw-event subscribers (#56124) (2026-10-22 09:20 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/86e17e98c7f9...b337fe06b7d8)
+
 ## 2026-10-22 07:04 UTC · [`openai/codex@86e17e98c7f9`](https://github.com/openai/codex/commit/86e17e98c7f901277aeeb4649cf1b01462b082f2)
 
 **Feature flags**

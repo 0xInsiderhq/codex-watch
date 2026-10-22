@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-22 07:04 UTC · [`openai/codex@86e17e98c7f9`](https://github.com/openai/codex/commit/86e17e98c7f901277aeeb4649cf1b01462b082f2)
+### 2026-10-22 10:08 UTC · [`openai/codex@b337fe06b7d8`](https://github.com/openai/codex/commit/b337fe06b7d8d6e5b42295e04c5e92c2b9c46567)
 
 **Feature flags**
-- added `tui_multi_backend` (UnderDevelopment, off by default)
+- added `guardian_recorded_items` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#56097](https://github.com/openai/codex/pull/56097) Prepare TUI startup to accept multiple backend sessions (#56097) (2026-10-22 06:32 UTC)
+- [#56124](https://github.com/openai/codex/pull/56124) Forward Guardian reviewer events to parent raw-event subscribers (#56124) (2026-10-22 09:20 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/45179176e52a...86e17e98c7f9)
+[Full diff since the last change](https://github.com/openai/codex/compare/86e17e98c7f9...b337fe06b7d8)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@86e17e98c7f9`](https://github.com/openai/codex/commit/86e17e98c7f901277aeeb4649cf1b01462b082f2), committed 2026-10-22T06:32:01Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@b337fe06b7d8`](https://github.com/openai/codex/commit/b337fe06b7d8d6e5b42295e04c5e92c2b9c46567), committed 2026-10-22T10:03:05Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
