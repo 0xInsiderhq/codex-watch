@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-22 13:20 UTC · [`openai/codex@2f3fb111be71`](https://github.com/openai/codex/commit/2f3fb111be71d277c80bd5b96d9019748b921f5a)
+
+**Feature flags**
+- changed `reasoning_effort_override` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#56163](https://github.com/openai/codex/pull/56163) Enable reasoning effort overrides by default (#56163) (2026-10-22 12:46 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/b337fe06b7d8...2f3fb111be71)
+
 ## 2026-10-22 10:08 UTC · [`openai/codex@b337fe06b7d8`](https://github.com/openai/codex/commit/b337fe06b7d8d6e5b42295e04c5e92c2b9c46567)
 
 **Feature flags**
