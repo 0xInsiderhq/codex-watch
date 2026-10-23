@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-23 15:24 UTC · [`openai/codex@2839ed763bd3`](https://github.com/openai/codex/commit/2839ed763bd3f404398e1f0c95bf4e2d172213c0)
+
+**Feature flags**
+- added `guardianv3` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#56459](https://github.com/openai/codex/pull/56459) Add Guardian V3 feature configuration (#56459) (2026-10-23 12:16 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/2f3fb111be71...2839ed763bd3)
+
 ## 2026-10-22 13:20 UTC · [`openai/codex@2f3fb111be71`](https://github.com/openai/codex/commit/2f3fb111be71d277c80bd5b96d9019748b921f5a)
 
 **Feature flags**

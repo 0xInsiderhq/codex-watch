@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "2f3fb111be71d277c80bd5b96d9019748b921f5a",
-  "commit_date": "2026-10-22T12:46:24Z"
+  "sha": "2839ed763bd3f404398e1f0c95bf4e2d172213c0",
+  "commit_date": "2026-10-23T15:00:06Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -809,6 +809,10 @@
    "default_enabled": false
   },
   "guardianv2_decisions_comparison": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardianv3": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },

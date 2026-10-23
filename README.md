@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-22 13:20 UTC · [`openai/codex@2f3fb111be71`](https://github.com/openai/codex/commit/2f3fb111be71d277c80bd5b96d9019748b921f5a)
+### 2026-10-23 15:24 UTC · [`openai/codex@2839ed763bd3`](https://github.com/openai/codex/commit/2839ed763bd3f404398e1f0c95bf4e2d172213c0)
 
 **Feature flags**
-- changed `reasoning_effort_override` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- added `guardianv3` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#56163](https://github.com/openai/codex/pull/56163) Enable reasoning effort overrides by default (#56163) (2026-10-22 12:46 UTC)
+- [#56459](https://github.com/openai/codex/pull/56459) Add Guardian V3 feature configuration (#56459) (2026-10-23 12:16 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/b337fe06b7d8...2f3fb111be71)
+[Full diff since the last change](https://github.com/openai/codex/compare/2f3fb111be71...2839ed763bd3)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -50,7 +50,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@2f3fb111be71`](https://github.com/openai/codex/commit/2f3fb111be71d277c80bd5b96d9019748b921f5a), committed 2026-10-22T12:46:24Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@2839ed763bd3`](https://github.com/openai/codex/commit/2839ed763bd3f404398e1f0c95bf4e2d172213c0), committed 2026-10-23T15:00:06Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
