@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "2839ed763bd3f404398e1f0c95bf4e2d172213c0",
-  "commit_date": "2026-10-23T15:00:06Z"
+  "sha": "716b4ec6dffc7b23b1c598400bccb622551bf787",
+  "commit_date": "2026-10-26T21:48:19Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -298,6 +298,10 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "untrusted_as_tool_output": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "executed_tool_call_metadata": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -379,6 +383,10 @@
    "default_enabled": false
   },
   "runtime_metrics": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "critical_path_timing": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
@@ -576,6 +584,10 @@
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
+  "mcp_connection_sharing": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "codex_apps_mcp_2026_07_28": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -692,6 +704,10 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "plugin_discovery_prefetch": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
   "plugin_sharing": {
    "stage": "Stable",
    "default_enabled": true
@@ -739,6 +755,10 @@
   "skill_search": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "skill_catalog_deltas": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "skill_env_var_dependency_prompt": {
    "stage": "Removed",
@@ -1073,6 +1093,8 @@
   "https://developers.openai.com/mcp",
   "https://developers.openai.com/mcp?source=codex",
   "https://gov.chatgpt.com",
+  "https://gov.chatgpt.com/backend-api/",
+  "https://gov.chatgpt.com/backend-api/codex",
   "https://help.openai.com/en/articles/11487775-apps-in-chatgpt",
   "https://help.openai.com/en/articles/20001326",
   "https://help.openai.com/en/articles/5722486-how-your-data-is-used-to-improve-model-performance",
