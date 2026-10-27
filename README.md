@@ -7,28 +7,21 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-26 21:55 UTC · [`openai/codex@716b4ec6dffc`](https://github.com/openai/codex/commit/716b4ec6dffc7b23b1c598400bccb622551bf787)
+### 2026-10-27 01:21 UTC · [`openai/codex@ce7adb6a31f2`](https://github.com/openai/codex/commit/ce7adb6a31f2909a48afa538c2cdb7a6254a0e4b)
+
+**Models in the bundled catalog**
+- added `gpt-6.1-terra` ("GPT-6.1 Terra", visibility list, context_window 500000)
 
 **Feature flags**
-- added `critical_path_timing` (UnderDevelopment, off by default)
-- added `mcp_connection_sharing` (UnderDevelopment, off by default)
-- added `plugin_discovery_prefetch` (Stable, on by default)
-- added `skill_catalog_deltas` (UnderDevelopment, off by default)
-- added `untrusted_as_tool_output` (UnderDevelopment, off by default)
-
-**chatgpt.com / openai.com URLs**
-- added `https://gov.chatgpt.com/backend-api/`
-- added `https://gov.chatgpt.com/backend-api/codex`
+- added `prediction_preserve_parent_tools` (Stable, on by default)
+- added `simplified_selection_hints` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#57201](https://github.com/openai/codex/pull/57201) Capture direct-tool critical paths behind a feature flag (#57201) (2026-10-26 19:19 UTC)
-- [#57204](https://github.com/openai/codex/pull/57204) Register the `untrusted_as_tool_output` feature flag (#57204) (2026-10-26 19:27 UTC)
-- [#57210](https://github.com/openai/codex/pull/57210) Add opt-in protocol discovery for local stdio MCP servers (#57210) (2026-10-26 19:37 UTC)
-- [#57211](https://github.com/openai/codex/pull/57211) Share eligible local stdio MCP connections across chats (#57211) (2026-10-26 19:37 UTC)
-- [#57249](https://github.com/openai/codex/pull/57249) Allow disabling plugin discovery prefetch at app-server startup (#57249) (2026-10-26 20:54 UTC)
-- [#57262](https://github.com/openai/codex/pull/57262) Add incremental skill catalogs behind `skill_catalog_deltas` (#57262) (2026-10-26 21:20 UTC)
+- [#57287](https://github.com/openai/codex/pull/57287) Preserve parent tool declarations in prediction forks (#57287) (2026-10-26 22:05 UTC)
+- [#57293](https://github.com/openai/codex/pull/57293) Add GPT-6.1 Terra to model catalogs (#57293) (2026-10-26 22:13 UTC)
+- [#57317](https://github.com/openai/codex/pull/57317) Add opt-in concise hints for explicitly selected plugins (#57317) (2026-10-27 00:52 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/2839ed763bd3...716b4ec6dffc)
+[Full diff since the last change](https://github.com/openai/codex/compare/716b4ec6dffc...ce7adb6a31f2)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -56,6 +49,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-6-sol` | GPT-6-Sol | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-6-luna` | GPT-6-Luna | list | 272000 (max 872000) | low, medium, high, xhigh, max |
 | `gpt-5.6-sol` | GPT-5.6-Sol | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
+| `gpt-6.1-terra` | GPT-6.1 Terra | list | 500000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-5.6-terra` | GPT-5.6-Terra | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-5.6-luna` | GPT-5.6-Luna | list | 272000 (max 872000) | low, medium, high, xhigh, max |
 | `gpt-daybreak-blue-latest` | Daybreak Blue | hide | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
@@ -63,7 +57,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@716b4ec6dffc`](https://github.com/openai/codex/commit/716b4ec6dffc7b23b1c598400bccb622551bf787), committed 2026-10-26T21:48:19Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@ce7adb6a31f2`](https://github.com/openai/codex/commit/ce7adb6a31f2909a48afa538c2cdb7a6254a0e4b), committed 2026-10-27T00:52:31Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

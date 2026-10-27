@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "716b4ec6dffc7b23b1c598400bccb622551bf787",
-  "commit_date": "2026-10-26T21:48:19Z"
+  "sha": "ce7adb6a31f2909a48afa538c2cdb7a6254a0e4b",
+  "commit_date": "2026-10-27T00:52:31Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -30,6 +30,24 @@
    "visibility": "list",
    "priority": 1,
    "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-6.1-terra": {
+   "display_name": "GPT-6.1 Terra",
+   "description": "GPT-6.1 Terra Codex model.",
+   "visibility": "list",
+   "priority": 7,
+   "context_window": 500000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
    "multi_agent_version": "v2",
@@ -620,6 +638,10 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "prediction_preserve_parent_tools": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
   "non_prefixed_mcp_tool_names": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -639,6 +661,10 @@
   "plugins": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "simplified_selection_hints": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "executor_capability_discovery": {
    "stage": "UnderDevelopment",
@@ -1036,6 +1062,7 @@
   "gpt-6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/decisions.rs",
   "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-6.1-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6.1-terra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
   "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",

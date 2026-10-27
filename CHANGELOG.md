@@ -2,6 +2,22 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-27 01:21 UTC · [`openai/codex@ce7adb6a31f2`](https://github.com/openai/codex/commit/ce7adb6a31f2909a48afa538c2cdb7a6254a0e4b)
+
+**Models in the bundled catalog**
+- added `gpt-6.1-terra` ("GPT-6.1 Terra", visibility list, context_window 500000)
+
+**Feature flags**
+- added `prediction_preserve_parent_tools` (Stable, on by default)
+- added `simplified_selection_hints` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#57287](https://github.com/openai/codex/pull/57287) Preserve parent tool declarations in prediction forks (#57287) (2026-10-26 22:05 UTC)
+- [#57293](https://github.com/openai/codex/pull/57293) Add GPT-6.1 Terra to model catalogs (#57293) (2026-10-26 22:13 UTC)
+- [#57317](https://github.com/openai/codex/pull/57317) Add opt-in concise hints for explicitly selected plugins (#57317) (2026-10-27 00:52 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/716b4ec6dffc...ce7adb6a31f2)
+
 ## 2026-10-26 21:55 UTC · [`openai/codex@716b4ec6dffc`](https://github.com/openai/codex/commit/716b4ec6dffc7b23b1c598400bccb622551bf787)
 
 **Feature flags**
