@@ -7,15 +7,18 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-27 12:46 UTC · [`openai/codex@a5ef02e56147`](https://github.com/openai/codex/commit/a5ef02e56147c4c3da493655fd5e2c64db13210f)
+### 2026-10-27 18:37 UTC · [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618)
 
 **Feature flags**
-- added `guardian_native_multi_agent_history` (UnderDevelopment, off by default)
+- added `omit_skill_descriptions` (UnderDevelopment, off by default)
+- changed `code_mode_tool_description_first` stage: "UnderDevelopment" → "Removed"
 
 **Commits that touched these files**
-- [#57441](https://github.com/openai/codex/pull/57441) Add Guardian native multi-agent history feature flag (#57441) (2026-10-27 12:28 UTC)
+- [#57451](https://github.com/openai/codex/pull/57451) Route state-changing multi-agent calls through Guardian review (#57451) (2026-10-27 13:21 UTC)
+- [#57462](https://github.com/openai/codex/pull/57462) Always put Code Mode tool descriptions before namespace descriptions (#57462) (2026-10-27 14:14 UTC)
+- [#57500](https://github.com/openai/codex/pull/57500) Add an option to omit descriptions from skill catalogs (#57500) (2026-10-27 16:16 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/ce7adb6a31f2...a5ef02e56147)
+[Full diff since the last change](https://github.com/openai/codex/compare/a5ef02e56147...4d3ed3f3b47d)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +54,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@a5ef02e56147`](https://github.com/openai/codex/commit/a5ef02e56147c4c3da493655fd5e2c64db13210f), committed 2026-10-27T12:28:07Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618), committed 2026-10-27T18:35:19Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

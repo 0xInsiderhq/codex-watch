@@ -2,6 +2,19 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-27 18:37 UTC · [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618)
+
+**Feature flags**
+- added `omit_skill_descriptions` (UnderDevelopment, off by default)
+- changed `code_mode_tool_description_first` stage: "UnderDevelopment" → "Removed"
+
+**Commits that touched these files**
+- [#57451](https://github.com/openai/codex/pull/57451) Route state-changing multi-agent calls through Guardian review (#57451) (2026-10-27 13:21 UTC)
+- [#57462](https://github.com/openai/codex/pull/57462) Always put Code Mode tool descriptions before namespace descriptions (#57462) (2026-10-27 14:14 UTC)
+- [#57500](https://github.com/openai/codex/pull/57500) Add an option to omit descriptions from skill catalogs (#57500) (2026-10-27 16:16 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/a5ef02e56147...4d3ed3f3b47d)
+
 ## 2026-10-27 12:46 UTC · [`openai/codex@a5ef02e56147`](https://github.com/openai/codex/commit/a5ef02e56147c4c3da493655fd5e2c64db13210f)
 
 **Feature flags**
