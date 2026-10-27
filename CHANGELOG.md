@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-27 12:46 UTC · [`openai/codex@a5ef02e56147`](https://github.com/openai/codex/commit/a5ef02e56147c4c3da493655fd5e2c64db13210f)
+
+**Feature flags**
+- added `guardian_native_multi_agent_history` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#57441](https://github.com/openai/codex/pull/57441) Add Guardian native multi-agent history feature flag (#57441) (2026-10-27 12:28 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/ce7adb6a31f2...a5ef02e56147)
+
 ## 2026-10-27 01:21 UTC · [`openai/codex@ce7adb6a31f2`](https://github.com/openai/codex/commit/ce7adb6a31f2909a48afa538c2cdb7a6254a0e4b)
 
 **Models in the bundled catalog**
