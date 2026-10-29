@@ -7,18 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-27 18:37 UTC · [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618)
+### 2026-10-29 00:16 UTC · [`openai/codex@f276b82185f0`](https://github.com/openai/codex/commit/f276b82185f021e7b8d532a3851413bc79a67594)
 
 **Feature flags**
-- added `omit_skill_descriptions` (UnderDevelopment, off by default)
-- changed `code_mode_tool_description_first` stage: "UnderDevelopment" → "Removed"
+- added `gcp_setup_wizard` (Stable, off by default)
+- added `interrupt_on_cancel` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#57451](https://github.com/openai/codex/pull/57451) Route state-changing multi-agent calls through Guardian review (#57451) (2026-10-27 13:21 UTC)
-- [#57462](https://github.com/openai/codex/pull/57462) Always put Code Mode tool descriptions before namespace descriptions (#57462) (2026-10-27 14:14 UTC)
-- [#57500](https://github.com/openai/codex/pull/57500) Add an option to omit descriptions from skill catalogs (#57500) (2026-10-27 16:16 UTC)
+- [#57857](https://github.com/openai/codex/pull/57857) Add Google Cloud Vertex AI setup to TUI onboarding (#57857) (2026-10-28 23:06 UTC)
+- [#57864](https://github.com/openai/codex/pull/57864) Allow upstream interruption when canceling Responses Lite turns (#57864) (2026-10-29 00:03 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/a5ef02e56147...4d3ed3f3b47d)
+[Full diff since the last change](https://github.com/openai/codex/compare/4d3ed3f3b47d...f276b82185f0)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -54,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618), committed 2026-10-27T18:35:19Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@f276b82185f0`](https://github.com/openai/codex/commit/f276b82185f021e7b8d532a3851413bc79a67594), committed 2026-10-29T00:03:28Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

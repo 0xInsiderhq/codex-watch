@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618",
-  "commit_date": "2026-10-27T18:35:19Z"
+  "sha": "f276b82185f021e7b8d532a3851413bc79a67594",
+  "commit_date": "2026-10-29T00:03:28Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -363,6 +363,10 @@
   "instant_interrupt": {
    "stage": "UnderDevelopment",
    "default_enabled": true
+  },
+  "interrupt_on_cancel": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "code_mode_only": {
    "stage": "UnderDevelopment",
@@ -918,6 +922,10 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "gcp_setup_wizard": {
+   "stage": "Stable",
+   "default_enabled": false
+  },
   "personality": {
    "stage": "Removed",
    "default_enabled": false
@@ -1050,7 +1058,7 @@
  "model_ids": {
   "codex-auto-balanced": "codex-rs/tui/src/chatwidget/model_popups.rs",
   "codex-auto-fast": "codex-rs/tui/src/chatwidget/model_popups.rs",
-  "codex-auto-review": "codex-rs/models-manager/models.json",
+  "codex-auto-review": "codex-rs/core/src/guardian/reviewer_config.rs",
   "codex-auto-thorough": "codex-rs/tui/src/chatwidget/model_popups.rs",
   "gpt-4o-mini-transcribe": "codex-rs/codex-api/src/endpoint/realtime_websocket/methods_v2.rs",
   "gpt-5": "codex-rs/app-server-test-client/src/lib.rs",

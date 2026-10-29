@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-29 00:16 UTC · [`openai/codex@f276b82185f0`](https://github.com/openai/codex/commit/f276b82185f021e7b8d532a3851413bc79a67594)
+
+**Feature flags**
+- added `gcp_setup_wizard` (Stable, off by default)
+- added `interrupt_on_cancel` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#57857](https://github.com/openai/codex/pull/57857) Add Google Cloud Vertex AI setup to TUI onboarding (#57857) (2026-10-28 23:06 UTC)
+- [#57864](https://github.com/openai/codex/pull/57864) Allow upstream interruption when canceling Responses Lite turns (#57864) (2026-10-29 00:03 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/4d3ed3f3b47d...f276b82185f0)
+
 ## 2026-10-27 18:37 UTC · [`openai/codex@4d3ed3f3b47d`](https://github.com/openai/codex/commit/4d3ed3f3b47d39f8fe0b60df74a20f528b6fc618)
 
 **Feature flags**
