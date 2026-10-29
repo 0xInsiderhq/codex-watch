@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-29 19:15 UTC · [`openai/codex@184c9c555ec7`](https://github.com/openai/codex/commit/184c9c555ec7b30bacde5a5bdfa92ff156315aa3)
+### 2026-10-29 23:30 UTC · [`openai/codex@708e3e2c7014`](https://github.com/openai/codex/commit/708e3e2c70142c75682a375669ca60754f76976d)
 
 **Feature flags**
-- added `incremental_exec_tools` (UnderDevelopment, off by default)
+- added `code_mode_host_output_truncation` (UnderDevelopment, off by default)
+- changed `respect_system_proxy` description: None → "Use macOS or Windows system proxy settings for Codex requests."; name: None → "System proxy"; stage: "UnderDevelopment" → "Experimental"
 
 **Commits that touched these files**
-- [#58122](https://github.com/openai/codex/pull/58122) Add an incremental exec tools feature flag (#58122) (2026-10-29 16:41 UTC)
+- [#58157](https://github.com/openai/codex/pull/58157) Expose system proxy support as an experimental setting (#58157) (2026-10-29 19:16 UTC)
+- [#58159](https://github.com/openai/codex/pull/58159) Add a feature flag for code-mode host output truncation (#58159) (2026-10-29 19:29 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/23934d31b15b...184c9c555ec7)
+[Full diff since the last change](https://github.com/openai/codex/compare/184c9c555ec7...708e3e2c7014)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@184c9c555ec7`](https://github.com/openai/codex/commit/184c9c555ec7b30bacde5a5bdfa92ff156315aa3), committed 2026-10-29T18:41:17Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@708e3e2c7014`](https://github.com/openai/codex/commit/708e3e2c70142c75682a375669ca60754f76976d), committed 2026-10-29T23:24:52Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

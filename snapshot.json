@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "184c9c555ec7b30bacde5a5bdfa92ff156315aa3",
-  "commit_date": "2026-10-29T18:41:17Z"
+  "sha": "708e3e2c70142c75682a375669ca60754f76976d",
+  "commit_date": "2026-10-29T23:24:52Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -352,6 +352,10 @@
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
+  "code_mode_host_output_truncation": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "code_mode_prewarm": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -539,8 +543,10 @@
    "default_enabled": true
   },
   "respect_system_proxy": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Experimental",
+   "default_enabled": false,
+   "name": "System proxy",
+   "description": "Use macOS or Windows system proxy settings for Codex requests."
   },
   "system_proxy_fallback": {
    "stage": "Stable",
