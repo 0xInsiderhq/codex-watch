@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-29 06:19 UTC · [`openai/codex@23934d31b15b`](https://github.com/openai/codex/commit/23934d31b15b1127c83535f84854e5009f7cd51d)
+
+**Feature flags**
+- added `tui_extensions_statusline` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#57970](https://github.com/openai/codex/pull/57970) Add an experimental UI tree renderer for the status line (#57970) (2026-10-29 03:07 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/f276b82185f0...23934d31b15b)
+
 ## 2026-10-29 00:16 UTC · [`openai/codex@f276b82185f0`](https://github.com/openai/codex/commit/f276b82185f021e7b8d532a3851413bc79a67594)
 
 **Feature flags**
