@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "23934d31b15b1127c83535f84854e5009f7cd51d",
-  "commit_date": "2026-10-29T04:28:05Z"
+  "sha": "184c9c555ec7b30bacde5a5bdfa92ff156315aa3",
+  "commit_date": "2026-10-29T18:41:17Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -649,6 +649,10 @@
   "prediction_preserve_parent_tools": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "incremental_exec_tools": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "non_prefixed_mcp_tool_names": {
    "stage": "UnderDevelopment",
