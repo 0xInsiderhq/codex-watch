@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-30 16:38 UTC · [`openai/codex@a727f1f11ae0`](https://github.com/openai/codex/commit/a727f1f11ae06dcb196cd028a31900dbfd2f68ed)
+
+**Feature flags**
+- added `apps_early_resource_discovery` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#58352](https://github.com/openai/codex/pull/58352) Allow Apps catalog discovery before the initial tool inventory completes (#58352) (2026-10-30 14:47 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/708e3e2c7014...a727f1f11ae0)
+
 ## 2026-10-29 23:30 UTC · [`openai/codex@708e3e2c7014`](https://github.com/openai/codex/commit/708e3e2c70142c75682a375669ca60754f76976d)
 
 **Feature flags**
