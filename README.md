@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-30 16:38 UTC · [`openai/codex@a727f1f11ae0`](https://github.com/openai/codex/commit/a727f1f11ae06dcb196cd028a31900dbfd2f68ed)
+### 2026-10-30 21:06 UTC · [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5)
 
 **Feature flags**
-- added `apps_early_resource_discovery` (UnderDevelopment, off by default)
+- added `suppress_model_change_announcements` (Stable, off by default)
+- changed `deferred_tool_world_state` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#58352](https://github.com/openai/codex/pull/58352) Allow Apps catalog discovery before the initial tool inventory completes (#58352) (2026-10-30 14:47 UTC)
+- [#58405](https://github.com/openai/codex/pull/58405) Add an option to suppress incremental model change announcements (#58405) (2026-10-30 18:19 UTC)
+- [#58410](https://github.com/openai/codex/pull/58410) Enable deferred tool world state by default (#58410) (2026-10-30 18:33 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/708e3e2c7014...a727f1f11ae0)
+[Full diff since the last change](https://github.com/openai/codex/compare/a727f1f11ae0...5a7353f0401b)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@a727f1f11ae0`](https://github.com/openai/codex/commit/a727f1f11ae06dcb196cd028a31900dbfd2f68ed), committed 2026-10-30T16:35:54Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5), committed 2026-10-30T21:01:23Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-10-30 21:06 UTC · [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5)
+
+**Feature flags**
+- added `suppress_model_change_announcements` (Stable, off by default)
+- changed `deferred_tool_world_state` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#58405](https://github.com/openai/codex/pull/58405) Add an option to suppress incremental model change announcements (#58405) (2026-10-30 18:19 UTC)
+- [#58410](https://github.com/openai/codex/pull/58410) Enable deferred tool world state by default (#58410) (2026-10-30 18:33 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/a727f1f11ae0...5a7353f0401b)
+
 ## 2026-10-30 16:38 UTC · [`openai/codex@a727f1f11ae0`](https://github.com/openai/codex/commit/a727f1f11ae06dcb196cd028a31900dbfd2f68ed)
 
 **Feature flags**
