@@ -2,6 +2,21 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-02 19:37 UTC · [`openai/codex@43ad1cbf3016`](https://github.com/openai/codex/commit/43ad1cbf3016e9944b3b5d0b0e127ce7148c9d7c)
+
+**Feature flags**
+- added `cli_resume_account_check` (UnderDevelopment, off by default)
+- changed `daemon_auto_start` stage: "Stable" → "Removed"
+
+**chatgpt.com / openai.com URLs**
+- added `https://gov.api.openai.com/v1`
+
+**Commits that touched these files**
+- [#58890](https://github.com/openai/codex/pull/58890) Add a feature-gated account check for CLI thread resume (#58890) (2026-11-02 13:51 UTC)
+- [#58940](https://github.com/openai/codex/pull/58940) Retire the daemon_auto_start feature flag (#58940) (2026-11-02 18:31 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/5a7353f0401b...43ad1cbf3016)
+
 ## 2026-10-30 21:06 UTC · [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5)
 
 **Feature flags**

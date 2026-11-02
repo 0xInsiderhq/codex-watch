@@ -7,17 +7,20 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-10-30 21:06 UTC · [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5)
+### 2026-11-02 19:37 UTC · [`openai/codex@43ad1cbf3016`](https://github.com/openai/codex/commit/43ad1cbf3016e9944b3b5d0b0e127ce7148c9d7c)
 
 **Feature flags**
-- added `suppress_model_change_announcements` (Stable, off by default)
-- changed `deferred_tool_world_state` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- added `cli_resume_account_check` (UnderDevelopment, off by default)
+- changed `daemon_auto_start` stage: "Stable" → "Removed"
+
+**chatgpt.com / openai.com URLs**
+- added `https://gov.api.openai.com/v1`
 
 **Commits that touched these files**
-- [#58405](https://github.com/openai/codex/pull/58405) Add an option to suppress incremental model change announcements (#58405) (2026-10-30 18:19 UTC)
-- [#58410](https://github.com/openai/codex/pull/58410) Enable deferred tool world state by default (#58410) (2026-10-30 18:33 UTC)
+- [#58890](https://github.com/openai/codex/pull/58890) Add a feature-gated account check for CLI thread resume (#58890) (2026-11-02 13:51 UTC)
+- [#58940](https://github.com/openai/codex/pull/58940) Retire the daemon_auto_start feature flag (#58940) (2026-11-02 18:31 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/a727f1f11ae0...5a7353f0401b)
+[Full diff since the last change](https://github.com/openai/codex/compare/5a7353f0401b...43ad1cbf3016)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +56,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@5a7353f0401b`](https://github.com/openai/codex/commit/5a7353f0401b970c44cf7d428ef23d74f3c366d5), committed 2026-10-30T21:01:23Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@43ad1cbf3016`](https://github.com/openai/codex/commit/43ad1cbf3016e9944b3b5d0b0e127ce7148c9d7c), committed 2026-11-02T19:26:15Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

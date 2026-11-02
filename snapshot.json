@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "5a7353f0401b970c44cf7d428ef23d74f3c366d5",
-  "commit_date": "2026-10-30T21:01:23Z"
+  "sha": "43ad1cbf3016e9944b3b5d0b0e127ce7148c9d7c",
+  "commit_date": "2026-11-02T19:26:15Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -226,8 +226,12 @@
    "name": "Analytics plan history",
    "description": "Preview five-hour and weekly allowance history for consumer accounts in /analytics."
   },
+  "cli_resume_account_check": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "daemon_auto_start": {
-   "stage": "Stable",
+   "stage": "Removed",
    "default_enabled": true
   },
   "tui_multi_backend": {
@@ -1100,7 +1104,7 @@
   "gpt-6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/decisions.rs",
   "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-6.1-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
-  "gpt-6.1-terra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6.1-terra": "codex-rs/model-provider/src/provider.rs",
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
   "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",
@@ -1157,6 +1161,7 @@
   "https://developers.openai.com/codex/windows",
   "https://developers.openai.com/mcp",
   "https://developers.openai.com/mcp?source=codex",
+  "https://gov.api.openai.com/v1",
   "https://gov.chatgpt.com",
   "https://gov.chatgpt.com/backend-api/",
   "https://gov.chatgpt.com/backend-api/codex",
