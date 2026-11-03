@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "ac91c14443c11c4279a9305099354e443c6fa7d4",
-  "commit_date": "2026-11-03T07:06:04Z"
+  "sha": "ac558e2a3264e1025fd8025fdd71d03dfbe8c86e",
+  "commit_date": "2026-11-03T16:33:17Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -901,6 +901,10 @@
    "default_enabled": false
   },
   "guardian_conversation_history_tools": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_denial_reconsideration": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },

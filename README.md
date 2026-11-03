@@ -7,19 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-03 09:20 UTC · [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4)
+### 2026-11-03 17:15 UTC · [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e)
 
 **Feature flags**
-- added `hosted_search_policy` (UnderDevelopment, off by default)
-- added `image_generation_animation` (UnderDevelopment, off by default)
-- changed `code_mode_only_strict_3p_tools` stage: "Removed" → "UnderDevelopment"
+- added `guardian_denial_reconsideration` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#59033](https://github.com/openai/codex/pull/59033) Add web search provider metadata and configuration (#59033) (2026-11-03 01:58 UTC)
-- [#59071](https://github.com/openai/codex/pull/59071) Enforce strict third-party tool deferral in Code Mode Only (#59071) (2026-11-03 06:05 UTC)
-- [#59073](https://github.com/openai/codex/pull/59073) Add optional animated GIF output to image generation (#59073) (2026-11-03 06:24 UTC)
+- [#59107](https://github.com/openai/codex/pull/59107) Add opt-in reconsideration of Guardian denials (#59107) (2026-11-03 09:51 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/f58acd6ede31...ac91c14443c1)
+[Full diff since the last change](https://github.com/openai/codex/compare/ac91c14443c1...ac558e2a3264)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -55,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4), committed 2026-11-03T07:06:04Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e), committed 2026-11-03T16:33:17Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

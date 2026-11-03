@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-03 17:15 UTC · [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e)
+
+**Feature flags**
+- added `guardian_denial_reconsideration` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#59107](https://github.com/openai/codex/pull/59107) Add opt-in reconsideration of Guardian denials (#59107) (2026-11-03 09:51 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/ac91c14443c1...ac558e2a3264)
+
 ## 2026-11-03 09:20 UTC · [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4)
 
 **Feature flags**
