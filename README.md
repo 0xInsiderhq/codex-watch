@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-03 17:15 UTC · [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e)
+### 2026-11-03 22:28 UTC · [`openai/codex@943a21829d0b`](https://github.com/openai/codex/commit/943a21829d0bc3462a725f9fb3cb704c21b64b91)
 
 **Feature flags**
-- added `guardian_denial_reconsideration` (UnderDevelopment, off by default)
+- added `guardian_include_additional_context` (Stable, on by default)
 
 **Commits that touched these files**
-- [#59107](https://github.com/openai/codex/pull/59107) Add opt-in reconsideration of Guardian denials (#59107) (2026-11-03 09:51 UTC)
+- [#59238](https://github.com/openai/codex/pull/59238) Register the Guardian additional-context feature flag (#59238) (2026-11-03 21:53 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/ac91c14443c1...ac558e2a3264)
+[Full diff since the last change](https://github.com/openai/codex/compare/ac558e2a3264...943a21829d0b)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e), committed 2026-11-03T16:33:17Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@943a21829d0b`](https://github.com/openai/codex/commit/943a21829d0bc3462a725f9fb3cb704c21b64b91), committed 2026-11-03T22:14:19Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

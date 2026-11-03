@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-03 22:28 UTC · [`openai/codex@943a21829d0b`](https://github.com/openai/codex/commit/943a21829d0bc3462a725f9fb3cb704c21b64b91)
+
+**Feature flags**
+- added `guardian_include_additional_context` (Stable, on by default)
+
+**Commits that touched these files**
+- [#59238](https://github.com/openai/codex/pull/59238) Register the Guardian additional-context feature flag (#59238) (2026-11-03 21:53 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/ac558e2a3264...943a21829d0b)
+
 ## 2026-11-03 17:15 UTC · [`openai/codex@ac558e2a3264`](https://github.com/openai/codex/commit/ac558e2a3264e1025fd8025fdd71d03dfbe8c86e)
 
 **Feature flags**
