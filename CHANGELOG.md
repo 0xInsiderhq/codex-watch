@@ -2,6 +2,20 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-03 09:20 UTC · [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4)
+
+**Feature flags**
+- added `hosted_search_policy` (UnderDevelopment, off by default)
+- added `image_generation_animation` (UnderDevelopment, off by default)
+- changed `code_mode_only_strict_3p_tools` stage: "Removed" → "UnderDevelopment"
+
+**Commits that touched these files**
+- [#59033](https://github.com/openai/codex/pull/59033) Add web search provider metadata and configuration (#59033) (2026-11-03 01:58 UTC)
+- [#59071](https://github.com/openai/codex/pull/59071) Enforce strict third-party tool deferral in Code Mode Only (#59071) (2026-11-03 06:05 UTC)
+- [#59073](https://github.com/openai/codex/pull/59073) Add optional animated GIF output to image generation (#59073) (2026-11-03 06:24 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/f58acd6ede31...ac91c14443c1)
+
 ## 2026-11-03 01:49 UTC · [`openai/codex@f58acd6ede31`](https://github.com/openai/codex/commit/f58acd6ede312266a7a0eaa63fd8dadacb4de239)
 
 **Feature flags**

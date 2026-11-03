@@ -7,21 +7,19 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-03 01:49 UTC · [`openai/codex@f58acd6ede31`](https://github.com/openai/codex/commit/f58acd6ede312266a7a0eaa63fd8dadacb4de239)
+### 2026-11-03 09:20 UTC · [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4)
 
 **Feature flags**
-- added `agent_message_board_mcp` (UnderDevelopment, off by default)
-- added `tui_workspace` (UnderDevelopment, off by default)
-- changed `code_mode_only_strict_3p_tools` stage: "UnderDevelopment" → "Removed"
-- changed `retain_client_tool_outputs` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- added `hosted_search_policy` (UnderDevelopment, off by default)
+- added `image_generation_animation` (UnderDevelopment, off by default)
+- changed `code_mode_only_strict_3p_tools` stage: "Removed" → "UnderDevelopment"
 
 **Commits that touched these files**
-- [#58964](https://github.com/openai/codex/pull/58964) Stabilize and enable client tool output retention by default (#58964) (2026-11-02 20:11 UTC)
-- [#58973](https://github.com/openai/codex/pull/58973) Add opt-in MCP discovery for in-memory agent message boards (#58973) (2026-11-02 20:34 UTC)
-- [#58992](https://github.com/openai/codex/pull/58992) Add opt-in side conversation panes to the TUI (#58992) (2026-11-02 21:47 UTC)
-- [#59025](https://github.com/openai/codex/pull/59025) Remove strict third-party tool deferral in Code Mode Only (#59025) (2026-11-03 01:31 UTC)
+- [#59033](https://github.com/openai/codex/pull/59033) Add web search provider metadata and configuration (#59033) (2026-11-03 01:58 UTC)
+- [#59071](https://github.com/openai/codex/pull/59071) Enforce strict third-party tool deferral in Code Mode Only (#59071) (2026-11-03 06:05 UTC)
+- [#59073](https://github.com/openai/codex/pull/59073) Add optional animated GIF output to image generation (#59073) (2026-11-03 06:24 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/43ad1cbf3016...f58acd6ede31)
+[Full diff since the last change](https://github.com/openai/codex/compare/f58acd6ede31...ac91c14443c1)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -57,7 +55,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@f58acd6ede31`](https://github.com/openai/codex/commit/f58acd6ede312266a7a0eaa63fd8dadacb4de239), committed 2026-11-03T01:41:16Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@ac91c14443c1`](https://github.com/openai/codex/commit/ac91c14443c11c4279a9305099354e443c6fa7d4), committed 2026-11-03T07:06:04Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

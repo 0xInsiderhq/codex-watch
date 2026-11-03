@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "f58acd6ede312266a7a0eaa63fd8dadacb4de239",
-  "commit_date": "2026-11-03T01:41:16Z"
+  "sha": "ac91c14443c11c4279a9305099354e443c6fa7d4",
+  "commit_date": "2026-11-03T07:06:04Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -389,7 +389,7 @@
    "default_enabled": false
   },
   "code_mode_only_strict_3p_tools": {
-   "stage": "Removed",
+   "stage": "UnderDevelopment",
    "default_enabled": false
   },
   "js_repl_tools_only": {
@@ -409,6 +409,10 @@
    "default_enabled": false
   },
   "standalone_web_search": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "hosted_search_policy": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
@@ -783,6 +787,10 @@
   "image_generation": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "image_generation_animation": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "omit_app_server_notification_media": {
    "stage": "UnderDevelopment",
