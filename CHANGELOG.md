@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-04 17:54 UTC · [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100)
+
+**Feature flags**
+- changed `daemon_auto_start` stage: "Removed" → "Stable"
+
+**Commits that touched these files**
+- [#59444](https://github.com/openai/codex/pull/59444) Add opt-in elastic budgeting for synchronous Guardian reviews (#59444) (2026-11-04 16:33 UTC)
+- [#59447](https://github.com/openai/codex/pull/59447) Restore the daemon auto-start feature flag (#59447) (2026-11-04 16:46 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/75aba6768a32...ba057e43758c)
+
 ## 2026-11-04 02:39 UTC · [`openai/codex@75aba6768a32`](https://github.com/openai/codex/commit/75aba6768a32622f145f97c6ce6c46fd92f4271a)
 
 **Feature flags**

@@ -7,15 +7,16 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-04 02:39 UTC · [`openai/codex@75aba6768a32`](https://github.com/openai/codex/commit/75aba6768a32622f145f97c6ce6c46fd92f4271a)
+### 2026-11-04 17:54 UTC · [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100)
 
 **Feature flags**
-- changed `unified_image_budget` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- changed `daemon_auto_start` stage: "Removed" → "Stable"
 
 **Commits that touched these files**
-- [#59282](https://github.com/openai/codex/pull/59282) Enable unified image budgeting by default (#59282) (2026-11-04 01:24 UTC)
+- [#59444](https://github.com/openai/codex/pull/59444) Add opt-in elastic budgeting for synchronous Guardian reviews (#59444) (2026-11-04 16:33 UTC)
+- [#59447](https://github.com/openai/codex/pull/59447) Restore the daemon auto-start feature flag (#59447) (2026-11-04 16:46 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/943a21829d0b...75aba6768a32)
+[Full diff since the last change](https://github.com/openai/codex/compare/75aba6768a32...ba057e43758c)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +52,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@75aba6768a32`](https://github.com/openai/codex/commit/75aba6768a32622f145f97c6ce6c46fd92f4271a), committed 2026-11-04T02:29:41Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100), committed 2026-11-04T17:23:44Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

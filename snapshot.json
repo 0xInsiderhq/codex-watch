@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "75aba6768a32622f145f97c6ce6c46fd92f4271a",
-  "commit_date": "2026-11-04T02:29:41Z"
+  "sha": "ba057e43758cb19beead2af9df19d10756cc4100",
+  "commit_date": "2026-11-04T17:23:44Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -231,7 +231,7 @@
    "default_enabled": false
   },
   "daemon_auto_start": {
-   "stage": "Removed",
+   "stage": "Stable",
    "default_enabled": true
   },
   "tui_workspace": {
