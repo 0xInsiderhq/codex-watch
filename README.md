@@ -7,16 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-04 17:54 UTC · [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100)
+### 2026-11-04 23:29 UTC · [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0)
 
 **Feature flags**
-- changed `daemon_auto_start` stage: "Removed" → "Stable"
+- changed `multi_agent` stage: "Stable" → "Deprecated"
 
 **Commits that touched these files**
-- [#59444](https://github.com/openai/codex/pull/59444) Add opt-in elastic budgeting for synchronous Guardian reviews (#59444) (2026-11-04 16:33 UTC)
-- [#59447](https://github.com/openai/codex/pull/59447) Restore the daemon auto-start feature flag (#59447) (2026-11-04 16:46 UTC)
+- [#59479](https://github.com/openai/codex/pull/59479) Deprecate the `multi_agent` feature flag (#59479) (2026-11-04 19:57 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/75aba6768a32...ba057e43758c)
+[Full diff since the last change](https://github.com/openai/codex/compare/ba057e43758c...763faa6ee4b6)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -52,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100), committed 2026-11-04T17:23:44Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0), committed 2026-11-04T23:18:18Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

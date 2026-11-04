@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-04 23:29 UTC · [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0)
+
+**Feature flags**
+- changed `multi_agent` stage: "Stable" → "Deprecated"
+
+**Commits that touched these files**
+- [#59479](https://github.com/openai/codex/pull/59479) Deprecate the `multi_agent` feature flag (#59479) (2026-11-04 19:57 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/ba057e43758c...763faa6ee4b6)
+
 ## 2026-11-04 17:54 UTC · [`openai/codex@ba057e43758c`](https://github.com/openai/codex/commit/ba057e43758cb19beead2af9df19d10756cc4100)
 
 **Feature flags**
