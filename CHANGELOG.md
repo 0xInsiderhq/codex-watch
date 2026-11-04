@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-04 02:39 UTC · [`openai/codex@75aba6768a32`](https://github.com/openai/codex/commit/75aba6768a32622f145f97c6ce6c46fd92f4271a)
+
+**Feature flags**
+- changed `unified_image_budget` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#59282](https://github.com/openai/codex/pull/59282) Enable unified image budgeting by default (#59282) (2026-11-04 01:24 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/943a21829d0b...75aba6768a32)
+
 ## 2026-11-03 22:28 UTC · [`openai/codex@943a21829d0b`](https://github.com/openai/codex/commit/943a21829d0bc3462a725f9fb3cb704c21b64b91)
 
 **Feature flags**

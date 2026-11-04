@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "943a21829d0bc3462a725f9fb3cb704c21b64b91",
-  "commit_date": "2026-11-03T22:14:19Z"
+  "sha": "75aba6768a32622f145f97c6ce6c46fd92f4271a",
+  "commit_date": "2026-11-04T02:29:41Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -801,8 +801,8 @@
    "default_enabled": false
   },
   "unified_image_budget": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Stable",
+   "default_enabled": true
   },
   "resize_all_images": {
    "stage": "Removed",
