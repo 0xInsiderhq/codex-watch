@@ -7,12 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-05 03:41 UTC · [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80)
+### 2026-11-05 11:36 UTC · [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48)
 
-**chatgpt.com / openai.com URLs**
-- added `https://platform.openai.com/tokenizer`
+**Feature flags**
+- added `async_compaction_root_only` (UnderDevelopment, off by default)
+- added `command_sessions_world_state` (UnderDevelopment, off by default)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/763faa6ee4b6...c90354172c5c)
+**Commits that touched these files**
+- [#59598](https://github.com/openai/codex/pull/59598) Add a root-only option for background compaction (#59598) (2026-11-05 07:59 UTC)
+- [#59633](https://github.com/openai/codex/pull/59633) Expose retained command sessions in incremental world state (#59633) (2026-11-05 11:14 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/c90354172c5c...2be3dd3ff3af)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -48,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80), committed 2026-11-05T01:54:03Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48), committed 2026-11-05T11:22:06Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

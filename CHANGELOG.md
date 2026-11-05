@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-05 11:36 UTC · [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48)
+
+**Feature flags**
+- added `async_compaction_root_only` (UnderDevelopment, off by default)
+- added `command_sessions_world_state` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#59598](https://github.com/openai/codex/pull/59598) Add a root-only option for background compaction (#59598) (2026-11-05 07:59 UTC)
+- [#59633](https://github.com/openai/codex/pull/59633) Expose retained command sessions in incremental world state (#59633) (2026-11-05 11:14 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/c90354172c5c...2be3dd3ff3af)
+
 ## 2026-11-05 03:41 UTC · [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80)
 
 **chatgpt.com / openai.com URLs**
