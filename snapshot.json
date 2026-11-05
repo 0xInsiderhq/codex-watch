@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0",
-  "commit_date": "2026-11-04T23:18:18Z"
+  "sha": "c90354172c5c49535b122443e9a8ed52c2233b80",
+  "commit_date": "2026-11-05T01:54:03Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -1202,6 +1202,7 @@
   "https://platform.openai.com/docs/guides/reasoning?api-mode=responses#get-started-with-reasoning",
   "https://platform.openai.com/docs/guides/reasoning?api-mode=responses#reasoning-summaries",
   "https://platform.openai.com/docs/guides/tools-web-search#live-internet-access",
-  "https://platform.openai.com/docs/guides/tools-web-search?api-mode=responses#:~:text=%7B%20type%3A%20%22web_search%22%20%7D%2C"
+  "https://platform.openai.com/docs/guides/tools-web-search?api-mode=responses#:~:text=%7B%20type%3A%20%22web_search%22%20%7D%2C",
+  "https://platform.openai.com/tokenizer"
  ]
 }

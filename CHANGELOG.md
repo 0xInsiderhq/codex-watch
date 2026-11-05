@@ -2,6 +2,13 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-05 03:41 UTC · [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80)
+
+**chatgpt.com / openai.com URLs**
+- added `https://platform.openai.com/tokenizer`
+
+[Full diff since the last change](https://github.com/openai/codex/compare/763faa6ee4b6...c90354172c5c)
+
 ## 2026-11-04 23:29 UTC · [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0)
 
 **Feature flags**

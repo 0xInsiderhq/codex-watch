@@ -7,15 +7,12 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-04 23:29 UTC · [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0)
+### 2026-11-05 03:41 UTC · [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80)
 
-**Feature flags**
-- changed `multi_agent` stage: "Stable" → "Deprecated"
+**chatgpt.com / openai.com URLs**
+- added `https://platform.openai.com/tokenizer`
 
-**Commits that touched these files**
-- [#59479](https://github.com/openai/codex/pull/59479) Deprecate the `multi_agent` feature flag (#59479) (2026-11-04 19:57 UTC)
-
-[Full diff since the last change](https://github.com/openai/codex/compare/ba057e43758c...763faa6ee4b6)
+[Full diff since the last change](https://github.com/openai/codex/compare/763faa6ee4b6...c90354172c5c)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +48,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@763faa6ee4b6`](https://github.com/openai/codex/commit/763faa6ee4b67d4234a6d71afa9d4e98ed9f91f0), committed 2026-11-04T23:18:18Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@c90354172c5c`](https://github.com/openai/codex/commit/c90354172c5c49535b122443e9a8ed52c2233b80), committed 2026-11-05T01:54:03Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
