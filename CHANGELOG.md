@@ -2,6 +2,22 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-06 07:15 UTC · [`openai/codex@55897425e839`](https://github.com/openai/codex/commit/55897425e839d943a744c658701445ff732568a0)
+
+**Feature flags**
+- added `incremental_tools_legacy` (UnderDevelopment, off by default)
+- changed `plugin_discovery_prefetch` default_enabled: True → False; stage: "Stable" → "Removed"
+
+**chatgpt.com / openai.com URLs**
+- added `https://codex-cloud-backend.chatgpt.com`
+
+**Commits that touched these files**
+- [#59659](https://github.com/openai/codex/pull/59659) Resample Guardian denials with the original request (#59659) (2026-11-05 13:38 UTC)
+- [#59768](https://github.com/openai/codex/pull/59768) Stop prefetching plugin discovery at app-server startup (#59768) (2026-11-06 00:23 UTC)
+- [#59832](https://github.com/openai/codex/pull/59832) Add opt-in incremental tools for regular OpenAI Responses (#59832) (2026-11-06 06:07 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/2be3dd3ff3af...55897425e839)
+
 ## 2026-11-05 11:36 UTC · [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48)
 
 **Feature flags**

@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "2be3dd3ff3afe74205ed341e1eec2ed8f298ee48",
-  "commit_date": "2026-11-05T11:22:06Z"
+  "sha": "55897425e839d943a744c658701445ff732568a0",
+  "commit_date": "2026-11-06T06:07:46Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -676,6 +676,10 @@
    "stage": "Stable",
    "default_enabled": true
   },
+  "incremental_tools_legacy": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "suppress_model_change_announcements": {
    "stage": "Stable",
    "default_enabled": false
@@ -777,8 +781,8 @@
    "default_enabled": true
   },
   "plugin_discovery_prefetch": {
-   "stage": "Stable",
-   "default_enabled": true
+   "stage": "Removed",
+   "default_enabled": false
   },
   "plugin_sharing": {
    "stage": "Stable",
@@ -1184,6 +1188,7 @@
   "https://chatgpt.com/oauth/codex/client.json",
   "https://chatgpt.com/r/b749fb02595e04c3007a54375f3f4374",
   "https://chatgpt.com/settings/usage",
+  "https://codex-cloud-backend.chatgpt.com",
   "https://developers.openai.com/api/docs/guides/structured-outputs#supported-schemas",
   "https://developers.openai.com/apps-sdk/reference#tool-descriptor-parameters",
   "https://developers.openai.com/codex/concepts/sandboxing#prerequisites",

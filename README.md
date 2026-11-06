@@ -7,17 +7,21 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-05 11:36 UTC · [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48)
+### 2026-11-06 07:15 UTC · [`openai/codex@55897425e839`](https://github.com/openai/codex/commit/55897425e839d943a744c658701445ff732568a0)
 
 **Feature flags**
-- added `async_compaction_root_only` (UnderDevelopment, off by default)
-- added `command_sessions_world_state` (UnderDevelopment, off by default)
+- added `incremental_tools_legacy` (UnderDevelopment, off by default)
+- changed `plugin_discovery_prefetch` default_enabled: True → False; stage: "Stable" → "Removed"
+
+**chatgpt.com / openai.com URLs**
+- added `https://codex-cloud-backend.chatgpt.com`
 
 **Commits that touched these files**
-- [#59598](https://github.com/openai/codex/pull/59598) Add a root-only option for background compaction (#59598) (2026-11-05 07:59 UTC)
-- [#59633](https://github.com/openai/codex/pull/59633) Expose retained command sessions in incremental world state (#59633) (2026-11-05 11:14 UTC)
+- [#59659](https://github.com/openai/codex/pull/59659) Resample Guardian denials with the original request (#59659) (2026-11-05 13:38 UTC)
+- [#59768](https://github.com/openai/codex/pull/59768) Stop prefetching plugin discovery at app-server startup (#59768) (2026-11-06 00:23 UTC)
+- [#59832](https://github.com/openai/codex/pull/59832) Add opt-in incremental tools for regular OpenAI Responses (#59832) (2026-11-06 06:07 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/c90354172c5c...2be3dd3ff3af)
+[Full diff since the last change](https://github.com/openai/codex/compare/2be3dd3ff3af...55897425e839)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +57,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@2be3dd3ff3af`](https://github.com/openai/codex/commit/2be3dd3ff3afe74205ed341e1eec2ed8f298ee48), committed 2026-11-05T11:22:06Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@55897425e839`](https://github.com/openai/codex/commit/55897425e839d943a744c658701445ff732568a0), committed 2026-11-06T06:07:46Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
