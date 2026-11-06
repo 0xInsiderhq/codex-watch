@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-06 21:00 UTC · [`openai/codex@1be4eb123e5f`](https://github.com/openai/codex/commit/1be4eb123e5f870cfdee701dee171801cab39c66)
+
+**Feature flags**
+- changed `code_mode_host_grpc` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- changed `code_mode_host_output_truncation` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#59973](https://github.com/openai/codex/pull/59973) Enable gRPC and host output truncation by default for Code Mode (#59973) (2026-11-06 20:29 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/55897425e839...1be4eb123e5f)
+
 ## 2026-11-06 07:15 UTC · [`openai/codex@55897425e839`](https://github.com/openai/codex/commit/55897425e839d943a744c658701445ff732568a0)
 
 **Feature flags**
