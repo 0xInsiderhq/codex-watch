@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-07 00:51 UTC · [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056)
+### 2026-11-07 06:58 UTC · [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72)
 
 **Feature flags**
-- added `gateway_setup_wizard` (Stable, off by default)
+- added `mcp_lazy_stdio_startup` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#60009](https://github.com/openai/codex/pull/60009) Add custom gateway selection to TUI sign-in (#60009) (2026-11-06 23:35 UTC)
+- [#60027](https://github.com/openai/codex/pull/60027) Keep configured status lines on the native renderer (#60027) (2026-11-07 01:51 UTC)
+- [#60039](https://github.com/openai/codex/pull/60039) Add opt-in lazy startup for cached stdio MCP servers (#60039) (2026-11-07 02:28 UTC)
+- [#60040](https://github.com/openai/codex/pull/60040) Restrict legacy incremental tools to Amazon Bedrock providers (#60040) (2026-11-07 02:37 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/1be4eb123e5f...10cf2b9ea230)
+[Full diff since the last change](https://github.com/openai/codex/compare/10cf2b9ea230...f5ac7a757e8f)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056), committed 2026-11-07T00:18:36Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72), committed 2026-11-07T06:51:10Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

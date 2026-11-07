@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-07 06:58 UTC · [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72)
+
+**Feature flags**
+- added `mcp_lazy_stdio_startup` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#60027](https://github.com/openai/codex/pull/60027) Keep configured status lines on the native renderer (#60027) (2026-11-07 01:51 UTC)
+- [#60039](https://github.com/openai/codex/pull/60039) Add opt-in lazy startup for cached stdio MCP servers (#60039) (2026-11-07 02:28 UTC)
+- [#60040](https://github.com/openai/codex/pull/60040) Restrict legacy incremental tools to Amazon Bedrock providers (#60040) (2026-11-07 02:37 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/10cf2b9ea230...f5ac7a757e8f)
+
 ## 2026-11-07 00:51 UTC · [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056)
 
 **Feature flags**

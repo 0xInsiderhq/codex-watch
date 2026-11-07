@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "10cf2b9ea230ccad1aa6b66cb7ff45231daaf056",
-  "commit_date": "2026-11-07T00:18:36Z"
+  "sha": "f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72",
+  "commit_date": "2026-11-07T06:51:10Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -633,6 +633,10 @@
    "default_enabled": false
   },
   "mcp_connection_sharing": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "mcp_lazy_stdio_startup": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
