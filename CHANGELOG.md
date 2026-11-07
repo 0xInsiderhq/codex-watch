@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-07 00:51 UTC · [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056)
+
+**Feature flags**
+- added `gateway_setup_wizard` (Stable, off by default)
+
+**Commits that touched these files**
+- [#60009](https://github.com/openai/codex/pull/60009) Add custom gateway selection to TUI sign-in (#60009) (2026-11-06 23:35 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/1be4eb123e5f...10cf2b9ea230)
+
 ## 2026-11-06 21:00 UTC · [`openai/codex@1be4eb123e5f`](https://github.com/openai/codex/commit/1be4eb123e5f870cfdee701dee171801cab39c66)
 
 **Feature flags**

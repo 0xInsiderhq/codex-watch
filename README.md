@@ -7,16 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-06 21:00 UTC · [`openai/codex@1be4eb123e5f`](https://github.com/openai/codex/commit/1be4eb123e5f870cfdee701dee171801cab39c66)
+### 2026-11-07 00:51 UTC · [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056)
 
 **Feature flags**
-- changed `code_mode_host_grpc` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
-- changed `code_mode_host_output_truncation` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- added `gateway_setup_wizard` (Stable, off by default)
 
 **Commits that touched these files**
-- [#59973](https://github.com/openai/codex/pull/59973) Enable gRPC and host output truncation by default for Code Mode (#59973) (2026-11-06 20:29 UTC)
+- [#60009](https://github.com/openai/codex/pull/60009) Add custom gateway selection to TUI sign-in (#60009) (2026-11-06 23:35 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/55897425e839...1be4eb123e5f)
+[Full diff since the last change](https://github.com/openai/codex/compare/1be4eb123e5f...10cf2b9ea230)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -52,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@1be4eb123e5f`](https://github.com/openai/codex/commit/1be4eb123e5f870cfdee701dee171801cab39c66), committed 2026-11-06T20:36:32Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@10cf2b9ea230`](https://github.com/openai/codex/commit/10cf2b9ea230ccad1aa6b66cb7ff45231daaf056), committed 2026-11-07T00:18:36Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
