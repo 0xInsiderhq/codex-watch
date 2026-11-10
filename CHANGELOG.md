@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-10 03:50 UTC · [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74)
+
+**Feature flags**
+- changed `untrusted_as_tool_output` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#60487](https://github.com/openai/codex/pull/60487) Enable untrusted context tool outputs by default (#60487) (2026-11-10 01:30 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/f5ac7a757e8f...551fc719d67b)
+
 ## 2026-11-07 06:58 UTC · [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72)
 
 **Feature flags**

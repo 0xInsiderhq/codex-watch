@@ -7,17 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-07 06:58 UTC · [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72)
+### 2026-11-10 03:50 UTC · [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74)
 
 **Feature flags**
-- added `mcp_lazy_stdio_startup` (UnderDevelopment, off by default)
+- changed `untrusted_as_tool_output` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#60027](https://github.com/openai/codex/pull/60027) Keep configured status lines on the native renderer (#60027) (2026-11-07 01:51 UTC)
-- [#60039](https://github.com/openai/codex/pull/60039) Add opt-in lazy startup for cached stdio MCP servers (#60039) (2026-11-07 02:28 UTC)
-- [#60040](https://github.com/openai/codex/pull/60040) Restrict legacy incremental tools to Amazon Bedrock providers (#60040) (2026-11-07 02:37 UTC)
+- [#60487](https://github.com/openai/codex/pull/60487) Enable untrusted context tool outputs by default (#60487) (2026-11-10 01:30 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/10cf2b9ea230...f5ac7a757e8f)
+[Full diff since the last change](https://github.com/openai/codex/compare/f5ac7a757e8f...551fc719d67b)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@f5ac7a757e8f`](https://github.com/openai/codex/commit/f5ac7a757e8f6f4fe922f3daab0fcaba02f1fa72), committed 2026-11-07T06:51:10Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74), committed 2026-11-10T03:40:10Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
