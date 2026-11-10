@@ -2,6 +2,13 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-10 12:25 UTC · [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4)
+
+**chatgpt.com / openai.com URLs**
+- added `https://codex-portals.api.openai.com`
+
+[Full diff since the last change](https://github.com/openai/codex/compare/551fc719d67b...b32ada5320b0)
+
 ## 2026-11-10 03:50 UTC · [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74)
 
 **Feature flags**

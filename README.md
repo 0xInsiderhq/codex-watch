@@ -7,15 +7,12 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-10 03:50 UTC · [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74)
+### 2026-11-10 12:25 UTC · [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4)
 
-**Feature flags**
-- changed `untrusted_as_tool_output` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+**chatgpt.com / openai.com URLs**
+- added `https://codex-portals.api.openai.com`
 
-**Commits that touched these files**
-- [#60487](https://github.com/openai/codex/pull/60487) Enable untrusted context tool outputs by default (#60487) (2026-11-10 01:30 UTC)
-
-[Full diff since the last change](https://github.com/openai/codex/compare/f5ac7a757e8f...551fc719d67b)
+[Full diff since the last change](https://github.com/openai/codex/compare/551fc719d67b...b32ada5320b0)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +48,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@551fc719d67b`](https://github.com/openai/codex/commit/551fc719d67b69997a5997d6a3f187a72ca2ab74), committed 2026-11-10T03:40:10Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4), committed 2026-11-10T11:45:44Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

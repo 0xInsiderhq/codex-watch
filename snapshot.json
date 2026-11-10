@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "551fc719d67b69997a5997d6a3f187a72ca2ab74",
-  "commit_date": "2026-11-10T03:40:10Z"
+  "sha": "b32ada5320b043bde03a10edab6b88fc126812b4",
+  "commit_date": "2026-11-10T11:45:44Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -1197,6 +1197,7 @@
   "https://chatgpt.com/r/b749fb02595e04c3007a54375f3f4374",
   "https://chatgpt.com/settings/usage",
   "https://codex-cloud-backend.chatgpt.com",
+  "https://codex-portals.api.openai.com",
   "https://developers.openai.com/api/docs/guides/structured-outputs#supported-schemas",
   "https://developers.openai.com/apps-sdk/reference#tool-descriptor-parameters",
   "https://developers.openai.com/codex/concepts/sandboxing#prerequisites",
