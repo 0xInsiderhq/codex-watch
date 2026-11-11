@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-11 22:11 UTC · [`openai/codex@392ced7d3a91`](https://github.com/openai/codex/commit/392ced7d3a9160fd35d40c606359869215f50522)
+
+**Feature flags**
+- added `incremental_tools_legacy_gcp` (Stable, on by default)
+- changed `incremental_tools_legacy` stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#60848](https://github.com/openai/codex/pull/60848) Enable incremental tool declarations by default for GCP (#60848) (2026-11-11 19:18 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/e58bf8f5233b...392ced7d3a91)
+
 ## 2026-11-11 15:24 UTC · [`openai/codex@e58bf8f5233b`](https://github.com/openai/codex/commit/e58bf8f5233b51e7cd1679d947e3028c1ed91b06)
 
 **Feature flags**
