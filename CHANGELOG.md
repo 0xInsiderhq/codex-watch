@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-11 15:24 UTC · [`openai/codex@e58bf8f5233b`](https://github.com/openai/codex/commit/e58bf8f5233b51e7cd1679d947e3028c1ed91b06)
+
+**Feature flags**
+- added `daybreak_program_propagation` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#60617](https://github.com/openai/codex/pull/60617) Support incremental tool declarations on GCP (#60617) (2026-11-10 16:13 UTC)
+- [#60749](https://github.com/openai/codex/pull/60749) Capture saved Daybreak preferences for native helpers (#60749) (2026-11-11 07:39 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/b32ada5320b0...e58bf8f5233b)
+
 ## 2026-11-10 12:25 UTC · [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4)
 
 **chatgpt.com / openai.com URLs**

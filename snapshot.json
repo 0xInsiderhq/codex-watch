@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "b32ada5320b043bde03a10edab6b88fc126812b4",
-  "commit_date": "2026-11-10T11:45:44Z"
+  "sha": "e58bf8f5233b51e7cd1679d947e3028c1ed91b06",
+  "commit_date": "2026-11-11T11:01:31Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -531,6 +531,10 @@
   "api_key_cyber_access_programs": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "daybreak_program_propagation": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "enable_request_compression": {
    "stage": "Stable",

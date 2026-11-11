@@ -7,12 +7,16 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-10 12:25 UTC · [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4)
+### 2026-11-11 15:24 UTC · [`openai/codex@e58bf8f5233b`](https://github.com/openai/codex/commit/e58bf8f5233b51e7cd1679d947e3028c1ed91b06)
 
-**chatgpt.com / openai.com URLs**
-- added `https://codex-portals.api.openai.com`
+**Feature flags**
+- added `daybreak_program_propagation` (UnderDevelopment, off by default)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/551fc719d67b...b32ada5320b0)
+**Commits that touched these files**
+- [#60617](https://github.com/openai/codex/pull/60617) Support incremental tool declarations on GCP (#60617) (2026-11-10 16:13 UTC)
+- [#60749](https://github.com/openai/codex/pull/60749) Capture saved Daybreak preferences for native helpers (#60749) (2026-11-11 07:39 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/b32ada5320b0...e58bf8f5233b)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -48,7 +52,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@b32ada5320b0`](https://github.com/openai/codex/commit/b32ada5320b043bde03a10edab6b88fc126812b4), committed 2026-11-10T11:45:44Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@e58bf8f5233b`](https://github.com/openai/codex/commit/e58bf8f5233b51e7cd1679d947e3028c1ed91b06), committed 2026-11-11T11:01:31Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
