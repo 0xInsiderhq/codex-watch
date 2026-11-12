@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-12 03:06 UTC · [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39)
+
+**Feature flags**
+- added `multi_environment_mcp` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#60905](https://github.com/openai/codex/pull/60905) Keep same-named MCP servers separate across environments (#60905) (2026-11-11 23:36 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/392ced7d3a91...6bfdc75f0d9e)
+
 ## 2026-11-11 22:11 UTC · [`openai/codex@392ced7d3a91`](https://github.com/openai/codex/commit/392ced7d3a9160fd35d40c606359869215f50522)
 
 **Feature flags**

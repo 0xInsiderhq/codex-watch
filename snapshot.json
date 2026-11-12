@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "392ced7d3a9160fd35d40c606359869215f50522",
-  "commit_date": "2026-11-11T19:18:48Z"
+  "sha": "6bfdc75f0d9e6fae313234f694839866d7c63c39",
+  "commit_date": "2026-11-12T02:53:52Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -644,6 +644,10 @@
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
+  "multi_environment_mcp": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
   "apps_early_resource_discovery": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -1155,7 +1159,7 @@
   "gpt-6-astra-wm": "codex-rs/tui/src/daybreak.rs",
   "gpt-6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/decisions.rs",
   "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
-  "gpt-6.1-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6.1-sol": ".github/scripts/issue_labeler.py",
   "gpt-6.1-terra": "codex-rs/model-provider/src/provider.rs",
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",

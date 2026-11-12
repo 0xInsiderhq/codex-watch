@@ -7,16 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-11 22:11 UTC · [`openai/codex@392ced7d3a91`](https://github.com/openai/codex/commit/392ced7d3a9160fd35d40c606359869215f50522)
+### 2026-11-12 03:06 UTC · [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39)
 
 **Feature flags**
-- added `incremental_tools_legacy_gcp` (Stable, on by default)
-- changed `incremental_tools_legacy` stage: "UnderDevelopment" → "Stable"
+- added `multi_environment_mcp` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#60848](https://github.com/openai/codex/pull/60848) Enable incremental tool declarations by default for GCP (#60848) (2026-11-11 19:18 UTC)
+- [#60905](https://github.com/openai/codex/pull/60905) Keep same-named MCP servers separate across environments (#60905) (2026-11-11 23:36 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/e58bf8f5233b...392ced7d3a91)
+[Full diff since the last change](https://github.com/openai/codex/compare/392ced7d3a91...6bfdc75f0d9e)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -52,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@392ced7d3a91`](https://github.com/openai/codex/commit/392ced7d3a9160fd35d40c606359869215f50522), committed 2026-11-11T19:18:48Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39), committed 2026-11-12T02:53:52Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
