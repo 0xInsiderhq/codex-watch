@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-13 21:39 UTC · [`openai/codex@a46c5be77eac`](https://github.com/openai/codex/commit/a46c5be77eac0dc856f677a099a6a7702edd578b)
+
+**Feature flags**
+- added `safe_image_decoder` (UnderDevelopment, off by default)
+- changed `tui_workspace` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#61341](https://github.com/openai/codex/pull/61341) Add opt-in prompt image sanitization (#61341) (2026-11-13 18:44 UTC)
+- [#61352](https://github.com/openai/codex/pull/61352) Mark the TUI workspace as stable and enable it by default (#61352) (2026-11-13 18:49 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/504558955012...a46c5be77eac)
+
 ## 2026-11-13 07:22 UTC · [`openai/codex@504558955012`](https://github.com/openai/codex/commit/5045589550122ec4f073d10e3d66a0813bcb7be0)
 
 **Model IDs anywhere in source**
