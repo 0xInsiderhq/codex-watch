@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-13 00:30 UTC · [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a)
+
+**Feature flags**
+- added `catalog_apps_instructions` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#61213](https://github.com/openai/codex/pull/61213) Support model catalog Apps usage instructions (#61213) (2026-11-13 00:29 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/6bfdc75f0d9e...83a23c09366d)
+
 ## 2026-11-12 03:06 UTC · [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39)
 
 **Feature flags**

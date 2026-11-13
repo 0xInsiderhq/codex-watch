@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-12 03:06 UTC · [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39)
+### 2026-11-13 00:30 UTC · [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a)
 
 **Feature flags**
-- added `multi_environment_mcp` (UnderDevelopment, off by default)
+- added `catalog_apps_instructions` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#60905](https://github.com/openai/codex/pull/60905) Keep same-named MCP servers separate across environments (#60905) (2026-11-11 23:36 UTC)
+- [#61213](https://github.com/openai/codex/pull/61213) Support model catalog Apps usage instructions (#61213) (2026-11-13 00:29 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/392ced7d3a91...6bfdc75f0d9e)
+[Full diff since the last change](https://github.com/openai/codex/compare/6bfdc75f0d9e...83a23c09366d)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@6bfdc75f0d9e`](https://github.com/openai/codex/commit/6bfdc75f0d9e6fae313234f694839866d7c63c39), committed 2026-11-12T02:53:52Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a), committed 2026-11-13T00:29:24Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
