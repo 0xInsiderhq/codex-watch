@@ -7,15 +7,16 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-13 00:30 UTC · [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a)
+### 2026-11-13 07:22 UTC · [`openai/codex@504558955012`](https://github.com/openai/codex/commit/5045589550122ec4f073d10e3d66a0813bcb7be0)
 
-**Feature flags**
-- added `catalog_apps_instructions` (UnderDevelopment, off by default)
+**Model IDs anywhere in source**
+- added `gpt-live-1.1-codex` (first seen in `codex-rs/core/src/realtime_conversation.rs`)
+- removed `gpt-live-1-codex`
 
 **Commits that touched these files**
-- [#61213](https://github.com/openai/codex/pull/61213) Support model catalog Apps usage instructions (#61213) (2026-11-13 00:29 UTC)
+- [#61259](https://github.com/openai/codex/pull/61259) Update realtime model and honor provider-specific voice defaults (#61259) (2026-11-13 05:04 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/6bfdc75f0d9e...83a23c09366d)
+[Full diff since the last change](https://github.com/openai/codex/compare/83a23c09366d...504558955012)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +52,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a), committed 2026-11-13T00:29:24Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@504558955012`](https://github.com/openai/codex/commit/5045589550122ec4f073d10e3d66a0813bcb7be0), committed 2026-11-13T06:39:52Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

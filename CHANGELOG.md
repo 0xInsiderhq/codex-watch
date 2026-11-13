@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-13 07:22 UTC · [`openai/codex@504558955012`](https://github.com/openai/codex/commit/5045589550122ec4f073d10e3d66a0813bcb7be0)
+
+**Model IDs anywhere in source**
+- added `gpt-live-1.1-codex` (first seen in `codex-rs/core/src/realtime_conversation.rs`)
+- removed `gpt-live-1-codex`
+
+**Commits that touched these files**
+- [#61259](https://github.com/openai/codex/pull/61259) Update realtime model and honor provider-specific voice defaults (#61259) (2026-11-13 05:04 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/83a23c09366d...504558955012)
+
 ## 2026-11-13 00:30 UTC · [`openai/codex@83a23c09366d`](https://github.com/openai/codex/commit/83a23c09366d82cd0cb469c64c3e55d04d71c87a)
 
 **Feature flags**

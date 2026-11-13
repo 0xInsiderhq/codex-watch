@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "83a23c09366d82cd0cb469c64c3e55d04d71c87a",
-  "commit_date": "2026-11-13T00:29:24Z"
+  "sha": "5045589550122ec4f073d10e3d66a0813bcb7be0",
+  "commit_date": "2026-11-13T06:39:52Z"
  },
  "models": {
   "gpt-6-astra": {
@@ -1168,7 +1168,7 @@
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
   "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",
-  "gpt-live-1-codex": "codex-rs/core/src/realtime_conversation.rs",
+  "gpt-live-1.1-codex": "codex-rs/core/src/realtime_conversation.rs",
   "gpt-oss": "codex-rs/model-provider-info/src/lib.rs",
   "gpt-realtime-1.5": "codex-rs/core/src/realtime_conversation.rs",
   "gpt-reserve": "codex-rs/protocol/src/error.rs",
