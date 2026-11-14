@@ -2,6 +2,22 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-14 01:51 UTC · [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8)
+
+**Feature flags**
+- added `file_backed_tool_audio` (UnderDevelopment, off by default)
+- changed `incremental_tools_legacy` default_enabled: False → True
+
+**chatgpt.com / openai.com URLs**
+- added `https://chatgpt.com/admin/status-and-access`
+- added `https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview#reduced-refusals-behavior-by-model`
+
+**Commits that touched these files**
+- [#61394](https://github.com/openai/codex/pull/61394) Add opt-in file-backed tool audio (#61394) (2026-11-13 23:02 UTC)
+- [#61426](https://github.com/openai/codex/pull/61426) Enable incremental tools by default for Amazon Bedrock (#61426) (2026-11-14 00:56 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/a46c5be77eac...9825e4b2fe69)
+
 ## 2026-11-13 21:39 UTC · [`openai/codex@a46c5be77eac`](https://github.com/openai/codex/commit/a46c5be77eac0dc856f677a099a6a7702edd578b)
 
 **Feature flags**

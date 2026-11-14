@@ -7,17 +7,21 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-13 21:39 UTC · [`openai/codex@a46c5be77eac`](https://github.com/openai/codex/commit/a46c5be77eac0dc856f677a099a6a7702edd578b)
+### 2026-11-14 01:51 UTC · [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8)
 
 **Feature flags**
-- added `safe_image_decoder` (UnderDevelopment, off by default)
-- changed `tui_workspace` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+- added `file_backed_tool_audio` (UnderDevelopment, off by default)
+- changed `incremental_tools_legacy` default_enabled: False → True
+
+**chatgpt.com / openai.com URLs**
+- added `https://chatgpt.com/admin/status-and-access`
+- added `https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview#reduced-refusals-behavior-by-model`
 
 **Commits that touched these files**
-- [#61341](https://github.com/openai/codex/pull/61341) Add opt-in prompt image sanitization (#61341) (2026-11-13 18:44 UTC)
-- [#61352](https://github.com/openai/codex/pull/61352) Mark the TUI workspace as stable and enable it by default (#61352) (2026-11-13 18:49 UTC)
+- [#61394](https://github.com/openai/codex/pull/61394) Add opt-in file-backed tool audio (#61394) (2026-11-13 23:02 UTC)
+- [#61426](https://github.com/openai/codex/pull/61426) Enable incremental tools by default for Amazon Bedrock (#61426) (2026-11-14 00:56 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/504558955012...a46c5be77eac)
+[Full diff since the last change](https://github.com/openai/codex/compare/a46c5be77eac...9825e4b2fe69)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +57,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@a46c5be77eac`](https://github.com/openai/codex/commit/a46c5be77eac0dc856f677a099a6a7702edd578b), committed 2026-11-13T21:00:04Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8), committed 2026-11-14T01:34:43Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
