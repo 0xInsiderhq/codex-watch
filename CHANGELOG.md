@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-14 08:50 UTC · [`openai/codex@d659419fe7f7`](https://github.com/openai/codex/commit/d659419fe7f7a9a32295ec9d1995a98f4b3f4a20)
+
+**Feature flags**
+- added `mcp_shared_repl_cwd` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#61444](https://github.com/openai/codex/pull/61444) Add process-local launch directories for shared MCP servers (#61444) (2026-11-14 01:54 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/9825e4b2fe69...d659419fe7f7)
+
 ## 2026-11-14 01:51 UTC · [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8)
 
 **Feature flags**

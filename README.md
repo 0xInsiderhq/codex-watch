@@ -7,21 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-14 01:51 UTC · [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8)
+### 2026-11-14 08:50 UTC · [`openai/codex@d659419fe7f7`](https://github.com/openai/codex/commit/d659419fe7f7a9a32295ec9d1995a98f4b3f4a20)
 
 **Feature flags**
-- added `file_backed_tool_audio` (UnderDevelopment, off by default)
-- changed `incremental_tools_legacy` default_enabled: False → True
-
-**chatgpt.com / openai.com URLs**
-- added `https://chatgpt.com/admin/status-and-access`
-- added `https://help.openai.com/en/articles/20001258-openai-daybreak-trusted-access-for-cyber-overview#reduced-refusals-behavior-by-model`
+- added `mcp_shared_repl_cwd` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#61394](https://github.com/openai/codex/pull/61394) Add opt-in file-backed tool audio (#61394) (2026-11-13 23:02 UTC)
-- [#61426](https://github.com/openai/codex/pull/61426) Enable incremental tools by default for Amazon Bedrock (#61426) (2026-11-14 00:56 UTC)
+- [#61444](https://github.com/openai/codex/pull/61444) Add process-local launch directories for shared MCP servers (#61444) (2026-11-14 01:54 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/a46c5be77eac...9825e4b2fe69)
+[Full diff since the last change](https://github.com/openai/codex/compare/9825e4b2fe69...d659419fe7f7)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -57,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@9825e4b2fe69`](https://github.com/openai/codex/commit/9825e4b2fe69d997dbf533e228445d50095e6ba8), committed 2026-11-14T01:34:43Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@d659419fe7f7`](https://github.com/openai/codex/commit/d659419fe7f7a9a32295ec9d1995a98f4b3f4a20), committed 2026-11-14T08:47:48Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
