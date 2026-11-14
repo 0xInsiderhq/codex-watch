@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-14 15:42 UTC · [`openai/codex@b1573f102413`](https://github.com/openai/codex/commit/b1573f102413e96a6481087922bf425231222dee)
+
+**Feature flags**
+- added `per_environment_context` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#61494](https://github.com/openai/codex/pull/61494) Describe context and permissions per environment behind a feature flag (#61494) (2026-11-14 09:43 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/d659419fe7f7...b1573f102413)
+
 ## 2026-11-14 08:50 UTC · [`openai/codex@d659419fe7f7`](https://github.com/openai/codex/commit/d659419fe7f7a9a32295ec9d1995a98f4b3f4a20)
 
 **Feature flags**
