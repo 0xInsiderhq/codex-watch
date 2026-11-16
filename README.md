@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-14 15:42 UTC · [`openai/codex@b1573f102413`](https://github.com/openai/codex/commit/b1573f102413e96a6481087922bf425231222dee)
+### 2026-11-16 23:51 UTC · [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e)
 
 **Feature flags**
-- added `per_environment_context` (UnderDevelopment, off by default)
+- added `utc_environment_date` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#61494](https://github.com/openai/codex/pull/61494) Describe context and permissions per environment behind a feature flag (#61494) (2026-11-14 09:43 UTC)
+- [#61897](https://github.com/openai/codex/pull/61897) Add opt-in UTC dates to environment context (#61897) (2026-11-16 22:27 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/d659419fe7f7...b1573f102413)
+[Full diff since the last change](https://github.com/openai/codex/compare/b1573f102413...56e43660f8c8)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +51,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@b1573f102413`](https://github.com/openai/codex/commit/b1573f102413e96a6481087922bf425231222dee), committed 2026-11-14T09:43:57Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e), committed 2026-11-16T23:27:21Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

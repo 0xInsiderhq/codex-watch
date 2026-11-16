@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-16 23:51 UTC · [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e)
+
+**Feature flags**
+- added `utc_environment_date` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#61897](https://github.com/openai/codex/pull/61897) Add opt-in UTC dates to environment context (#61897) (2026-11-16 22:27 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/b1573f102413...56e43660f8c8)
+
 ## 2026-11-14 15:42 UTC · [`openai/codex@b1573f102413`](https://github.com/openai/codex/commit/b1573f102413e96a6481087922bf425231222dee)
 
 **Feature flags**
