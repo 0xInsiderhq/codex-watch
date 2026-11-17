@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-17 07:36 UTC · [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c)
+
+**Feature flags**
+- added `guardian_nested_approval_context` (UnderDevelopment, off by default)
+- added `restored_history_prewarm` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#61946](https://github.com/openai/codex/pull/61946) Include enclosing tool context in nested Guardian approvals (#61946) (2026-11-17 02:31 UTC)
+- [#61959](https://github.com/openai/codex/pull/61959) Prewarm restored file images on cold resume (#61959) (2026-11-17 03:48 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/56e43660f8c8...7fb4014d52b5)
+
 ## 2026-11-16 23:51 UTC · [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e)
 
 **Feature flags**

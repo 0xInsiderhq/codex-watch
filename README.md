@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-16 23:51 UTC · [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e)
+### 2026-11-17 07:36 UTC · [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c)
 
 **Feature flags**
-- added `utc_environment_date` (UnderDevelopment, off by default)
+- added `guardian_nested_approval_context` (UnderDevelopment, off by default)
+- added `restored_history_prewarm` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#61897](https://github.com/openai/codex/pull/61897) Add opt-in UTC dates to environment context (#61897) (2026-11-16 22:27 UTC)
+- [#61946](https://github.com/openai/codex/pull/61946) Include enclosing tool context in nested Guardian approvals (#61946) (2026-11-17 02:31 UTC)
+- [#61959](https://github.com/openai/codex/pull/61959) Prewarm restored file images on cold resume (#61959) (2026-11-17 03:48 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/b1573f102413...56e43660f8c8)
+[Full diff since the last change](https://github.com/openai/codex/compare/56e43660f8c8...7fb4014d52b5)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -51,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@56e43660f8c8`](https://github.com/openai/codex/commit/56e43660f8c8743a43117da53add23c0608e6a8e), committed 2026-11-16T23:27:21Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c), committed 2026-11-17T07:27:10Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
