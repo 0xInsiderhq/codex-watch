@@ -2,6 +2,25 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-17 23:52 UTC · [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af)
+
+**Models in the bundled catalog**
+- added `gpt-6.2-astra` ("GPT-6.2-Astra", visibility list, context_window 272000)
+- added `gpt-6.2-sol` ("GPT-6.2-Sol", visibility list, context_window 500000)
+- changed `gpt-5.6-luna` description: "Older fast and efficient model." → "Legacy fast model for simpler tasks."; priority: 9 → 10
+- changed `gpt-5.6-sol` description: "Older generation workhorse model." → "Legacy model for coding and everyday work."; priority: 5 → 8
+- changed `gpt-5.6-terra` description: "Older balanced model for straightforward work." → "Legacy balanced model for agentic coding."; priority: 8 → 9
+- changed `gpt-6-astra` description: "Frontier intelligence for the most demanding work." → "Previous generation model for complex coding and professional work."; priority: 2 → 5
+- changed `gpt-6-luna` priority: 4 → 7
+- changed `gpt-6-sol` description: "Previous generation workhorse model." → "Legacy model for coding and everyday work."; priority: 3 → 6
+- changed `gpt-6.1-sol` context_window: 272000 → 500000; description: "Latest workhorse model for coding and everyday work." → "Previous generation model for coding and everyday work."; priority: 1 → 4
+- changed `gpt-6.1-terra` description: "GPT-6.1 Terra Codex model." → "Efficient model that excels at visual understanding and computer use."; priority: 7 → 3
+
+**Commits that touched these files**
+- [#62106](https://github.com/openai/codex/pull/62106) Add GPT-6.2 Sol and Astra to model catalogs (#62106) (2026-11-17 20:04 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/7fb4014d52b5...18d82cf7eb77)
+
 ## 2026-11-17 07:36 UTC · [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c)
 
 **Feature flags**

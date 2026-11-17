@@ -2,13 +2,31 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "7fb4014d52b5bc5049c389f9df015ff8c7e6e37c",
-  "commit_date": "2026-11-17T07:27:10Z"
+  "sha": "18d82cf7eb77d4047d79909e1ecae0b5ee22f0af",
+  "commit_date": "2026-11-17T23:48:01Z"
  },
  "models": {
-  "gpt-6-astra": {
-   "display_name": "GPT-6-Astra",
-   "description": "Frontier intelligence for the most demanding work.",
+  "gpt-6.2-sol": {
+   "display_name": "GPT-6.2-Sol",
+   "description": "Fast, go-to model for coding and everyday work.",
+   "visibility": "list",
+   "priority": 1,
+   "context_window": 500000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
+  "gpt-6.2-astra": {
+   "display_name": "GPT-6.2-Astra",
+   "description": "Our most capable model for complex coding and professional work.",
    "visibility": "list",
    "priority": 2,
    "context_window": 272000,
@@ -24,12 +42,30 @@
     "ultra"
    ]
   },
+  "gpt-6-astra": {
+   "display_name": "GPT-6-Astra",
+   "description": "Previous generation model for complex coding and professional work.",
+   "visibility": "list",
+   "priority": 5,
+   "context_window": 272000,
+   "max_context_window": 872000,
+   "default_reasoning_level": "low",
+   "multi_agent_version": "v2",
+   "reasoning_levels": [
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+    "ultra"
+   ]
+  },
   "gpt-6.1-sol": {
    "display_name": "GPT-6.1-Sol",
-   "description": "Latest workhorse model for coding and everyday work.",
+   "description": "Previous generation model for coding and everyday work.",
    "visibility": "list",
-   "priority": 1,
-   "context_window": 272000,
+   "priority": 4,
+   "context_window": 500000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
    "multi_agent_version": "v2",
@@ -44,9 +80,9 @@
   },
   "gpt-6.1-terra": {
    "display_name": "GPT-6.1 Terra",
-   "description": "GPT-6.1 Terra Codex model.",
+   "description": "Efficient model that excels at visual understanding and computer use.",
    "visibility": "list",
-   "priority": 7,
+   "priority": 3,
    "context_window": 500000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
@@ -62,9 +98,9 @@
   },
   "gpt-6-sol": {
    "display_name": "GPT-6-Sol",
-   "description": "Previous generation workhorse model.",
+   "description": "Legacy model for coding and everyday work.",
    "visibility": "list",
-   "priority": 3,
+   "priority": 6,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -82,7 +118,7 @@
    "display_name": "GPT-6-Luna",
    "description": "Fast and affordable model for easier tasks.",
    "visibility": "list",
-   "priority": 4,
+   "priority": 7,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -97,9 +133,9 @@
   },
   "gpt-5.6-sol": {
    "display_name": "GPT-5.6-Sol",
-   "description": "Older generation workhorse model.",
+   "description": "Legacy model for coding and everyday work.",
    "visibility": "list",
-   "priority": 5,
+   "priority": 8,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "low",
@@ -115,9 +151,9 @@
   },
   "gpt-5.6-terra": {
    "display_name": "GPT-5.6-Terra",
-   "description": "Older balanced model for straightforward work.",
+   "description": "Legacy balanced model for agentic coding.",
    "visibility": "list",
-   "priority": 8,
+   "priority": 9,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -133,9 +169,9 @@
   },
   "gpt-5.6-luna": {
    "display_name": "GPT-5.6-Luna",
-   "description": "Older fast and efficient model.",
+   "description": "Legacy fast model for simpler tasks.",
    "visibility": "list",
-   "priority": 9,
+   "priority": 10,
    "context_window": 272000,
    "max_context_window": 872000,
    "default_reasoning_level": "medium",
@@ -1193,6 +1229,8 @@
   "gpt-6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-6.1-sol": ".github/scripts/issue_labeler.py",
   "gpt-6.1-terra": "codex-rs/model-provider/src/provider.rs",
+  "gpt-6.2-astra": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
+  "gpt-6.2-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-daybreak-blue-latest": "codex-rs/models-manager/models.json",
   "gpt-daybreak-red-latest": "codex-rs/models-manager/models.json",
   "gpt-image-2": "codex-rs/ext/image-generation/src/tool.rs",

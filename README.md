@@ -7,17 +7,24 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-17 07:36 UTC · [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c)
+### 2026-11-17 23:52 UTC · [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af)
 
-**Feature flags**
-- added `guardian_nested_approval_context` (UnderDevelopment, off by default)
-- added `restored_history_prewarm` (UnderDevelopment, off by default)
+**Models in the bundled catalog**
+- added `gpt-6.2-astra` ("GPT-6.2-Astra", visibility list, context_window 272000)
+- added `gpt-6.2-sol` ("GPT-6.2-Sol", visibility list, context_window 500000)
+- changed `gpt-5.6-luna` description: "Older fast and efficient model." → "Legacy fast model for simpler tasks."; priority: 9 → 10
+- changed `gpt-5.6-sol` description: "Older generation workhorse model." → "Legacy model for coding and everyday work."; priority: 5 → 8
+- changed `gpt-5.6-terra` description: "Older balanced model for straightforward work." → "Legacy balanced model for agentic coding."; priority: 8 → 9
+- changed `gpt-6-astra` description: "Frontier intelligence for the most demanding work." → "Previous generation model for complex coding and professional work."; priority: 2 → 5
+- changed `gpt-6-luna` priority: 4 → 7
+- changed `gpt-6-sol` description: "Previous generation workhorse model." → "Legacy model for coding and everyday work."; priority: 3 → 6
+- changed `gpt-6.1-sol` context_window: 272000 → 500000; description: "Latest workhorse model for coding and everyday work." → "Previous generation model for coding and everyday work."; priority: 1 → 4
+- changed `gpt-6.1-terra` description: "GPT-6.1 Terra Codex model." → "Efficient model that excels at visual understanding and computer use."; priority: 7 → 3
 
 **Commits that touched these files**
-- [#61946](https://github.com/openai/codex/pull/61946) Include enclosing tool context in nested Guardian approvals (#61946) (2026-11-17 02:31 UTC)
-- [#61959](https://github.com/openai/codex/pull/61959) Prewarm restored file images on cold resume (#61959) (2026-11-17 03:48 UTC)
+- [#62106](https://github.com/openai/codex/pull/62106) Add GPT-6.2 Sol and Astra to model catalogs (#62106) (2026-11-17 20:04 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/56e43660f8c8...7fb4014d52b5)
+[Full diff since the last change](https://github.com/openai/codex/compare/7fb4014d52b5...18d82cf7eb77)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -40,12 +47,14 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 <!-- catalog:start -->
 | slug | name | visibility | context | reasoning |
 |---|---|---|---|---|
-| `gpt-6.1-sol` | GPT-6.1-Sol | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
+| `gpt-6.2-sol` | GPT-6.2-Sol | list | 500000 (max 872000) | low, medium, high, xhigh, max, ultra |
+| `gpt-6.2-astra` | GPT-6.2-Astra | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
+| `gpt-6.1-terra` | GPT-6.1 Terra | list | 500000 (max 872000) | low, medium, high, xhigh, max, ultra |
+| `gpt-6.1-sol` | GPT-6.1-Sol | list | 500000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-6-astra` | GPT-6-Astra | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-6-sol` | GPT-6-Sol | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-6-luna` | GPT-6-Luna | list | 272000 (max 872000) | low, medium, high, xhigh, max |
 | `gpt-5.6-sol` | GPT-5.6-Sol | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
-| `gpt-6.1-terra` | GPT-6.1 Terra | list | 500000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-5.6-terra` | GPT-5.6-Terra | list | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
 | `gpt-5.6-luna` | GPT-5.6-Luna | list | 272000 (max 872000) | low, medium, high, xhigh, max |
 | `gpt-daybreak-blue-latest` | Daybreak Blue | hide | 272000 (max 872000) | low, medium, high, xhigh, max, ultra |
@@ -53,7 +62,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@7fb4014d52b5`](https://github.com/openai/codex/commit/7fb4014d52b5bc5049c389f9df015ff8c7e6e37c), committed 2026-11-17T07:27:10Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af), committed 2026-11-17T23:48:01Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
