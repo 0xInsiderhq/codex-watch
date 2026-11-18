@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-18 23:02 UTC · [`openai/codex@8e9746b19d20`](https://github.com/openai/codex/commit/8e9746b19d20539ab3fbce5d69a4e0cd09b27305)
+
+**Feature flags**
+- changed `mcp_lazy_stdio_startup` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#62366](https://github.com/openai/codex/pull/62366) Enable lazy startup for stdio MCP servers by default (#62366) (2026-11-18 21:30 UTC)
+- [#62372](https://github.com/openai/codex/pull/62372) Make Guardian V3 routing and retrieval guidance configurable (#62372) (2026-11-18 21:56 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/081f205f423e...8e9746b19d20)
+
 ## 2026-11-18 16:22 UTC · [`openai/codex@081f205f423e`](https://github.com/openai/codex/commit/081f205f423eb2a4db54318e7ded3b074aeb5532)
 
 **Feature flags**
