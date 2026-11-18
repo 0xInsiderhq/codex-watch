@@ -7,24 +7,16 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-17 23:52 UTC · [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af)
+### 2026-11-18 16:22 UTC · [`openai/codex@081f205f423e`](https://github.com/openai/codex/commit/081f205f423eb2a4db54318e7ded3b074aeb5532)
 
-**Models in the bundled catalog**
-- added `gpt-6.2-astra` ("GPT-6.2-Astra", visibility list, context_window 272000)
-- added `gpt-6.2-sol` ("GPT-6.2-Sol", visibility list, context_window 500000)
-- changed `gpt-5.6-luna` description: "Older fast and efficient model." → "Legacy fast model for simpler tasks."; priority: 9 → 10
-- changed `gpt-5.6-sol` description: "Older generation workhorse model." → "Legacy model for coding and everyday work."; priority: 5 → 8
-- changed `gpt-5.6-terra` description: "Older balanced model for straightforward work." → "Legacy balanced model for agentic coding."; priority: 8 → 9
-- changed `gpt-6-astra` description: "Frontier intelligence for the most demanding work." → "Previous generation model for complex coding and professional work."; priority: 2 → 5
-- changed `gpt-6-luna` priority: 4 → 7
-- changed `gpt-6-sol` description: "Previous generation workhorse model." → "Legacy model for coding and everyday work."; priority: 3 → 6
-- changed `gpt-6.1-sol` context_window: 272000 → 500000; description: "Latest workhorse model for coding and everyday work." → "Previous generation model for coding and everyday work."; priority: 1 → 4
-- changed `gpt-6.1-terra` description: "GPT-6.1 Terra Codex model." → "Efficient model that excels at visual understanding and computer use."; priority: 7 → 3
+**Feature flags**
+- added `realtime_frames_local` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#62106](https://github.com/openai/codex/pull/62106) Add GPT-6.2 Sol and Astra to model catalogs (#62106) (2026-11-17 20:04 UTC)
+- [#62215](https://github.com/openai/codex/pull/62215) Resolve Linux sandbox mode once before launching the helper (#62215) (2026-11-18 07:23 UTC)
+- [#62271](https://github.com/openai/codex/pull/62271) Gate local realtime frame history on paginated storage (#62271) (2026-11-18 12:55 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/7fb4014d52b5...18d82cf7eb77)
+[Full diff since the last change](https://github.com/openai/codex/compare/18d82cf7eb77...081f205f423e)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -62,7 +54,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af), committed 2026-11-17T23:48:01Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@081f205f423e`](https://github.com/openai/codex/commit/081f205f423eb2a4db54318e7ded3b074aeb5532), committed 2026-11-18T16:18:34Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-18 16:22 UTC · [`openai/codex@081f205f423e`](https://github.com/openai/codex/commit/081f205f423eb2a4db54318e7ded3b074aeb5532)
+
+**Feature flags**
+- added `realtime_frames_local` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#62215](https://github.com/openai/codex/pull/62215) Resolve Linux sandbox mode once before launching the helper (#62215) (2026-11-18 07:23 UTC)
+- [#62271](https://github.com/openai/codex/pull/62271) Gate local realtime frame history on paginated storage (#62271) (2026-11-18 12:55 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/18d82cf7eb77...081f205f423e)
+
 ## 2026-11-17 23:52 UTC · [`openai/codex@18d82cf7eb77`](https://github.com/openai/codex/commit/18d82cf7eb77d4047d79909e1ecae0b5ee22f0af)
 
 **Models in the bundled catalog**

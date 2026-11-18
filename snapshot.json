@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "18d82cf7eb77d4047d79909e1ecae0b5ee22f0af",
-  "commit_date": "2026-11-17T23:48:01Z"
+  "sha": "081f205f423eb2a4db54318e7ded3b074aeb5532",
+  "commit_date": "2026-11-18T16:18:34Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -497,6 +497,10 @@
    "default_enabled": false
   },
   "background_paginated_rollout_migration": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "realtime_frames_local": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
