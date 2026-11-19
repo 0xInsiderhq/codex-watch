@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-19 04:14 UTC · [`openai/codex@b5d9f7116e25`](https://github.com/openai/codex/commit/b5d9f7116e256e59f4a036c1c3e18979994598c4)
+
+**Feature flags**
+- added `connector_tool_result_passthrough` (UnderDevelopment, off by default)
+- changed `tui_extensions_statusline` description: None → "Restart the TUI, then use /statusline."; name: None → "Custom status line"; stage: "UnderDevelopment" → "Experimental"
+
+**Commits that touched these files**
+- [#62387](https://github.com/openai/codex/pull/62387) Expose custom status lines in `/experimental` (#62387) (2026-11-19 00:59 UTC)
+- [#62392](https://github.com/openai/codex/pull/62392) Pass eligible connector results through to ChatGPT Responses (#62392) (2026-11-19 01:27 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/8e9746b19d20...b5d9f7116e25)
+
 ## 2026-11-18 23:02 UTC · [`openai/codex@8e9746b19d20`](https://github.com/openai/codex/commit/8e9746b19d20539ab3fbce5d69a4e0cd09b27305)
 
 **Feature flags**

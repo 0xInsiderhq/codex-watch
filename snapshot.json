@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "8e9746b19d20539ab3fbce5d69a4e0cd09b27305",
-  "commit_date": "2026-11-18T22:40:41Z"
+  "sha": "b5d9f7116e256e59f4a036c1c3e18979994598c4",
+  "commit_date": "2026-11-19T03:58:29Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -279,8 +279,10 @@
    "default_enabled": false
   },
   "tui_extensions_statusline": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Experimental",
+   "default_enabled": false,
+   "name": "Custom status line",
+   "description": "Restart the TUI, then use /statusline."
   },
   "app_server_websocket_compression": {
    "stage": "UnderDevelopment",
@@ -373,6 +375,10 @@
    "default_enabled": true
   },
   "executed_tool_call_metadata": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "connector_tool_result_passthrough": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
