@@ -7,17 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-19 04:14 UTC · [`openai/codex@b5d9f7116e25`](https://github.com/openai/codex/commit/b5d9f7116e256e59f4a036c1c3e18979994598c4)
+### 2026-11-19 13:29 UTC · [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101)
 
 **Feature flags**
-- added `connector_tool_result_passthrough` (UnderDevelopment, off by default)
-- changed `tui_extensions_statusline` description: None → "Restart the TUI, then use /statusline."; name: None → "Custom status line"; stage: "UnderDevelopment" → "Experimental"
+- changed `code_mode_host_grpc` default_enabled: True → False; stage: "Stable" → "Removed"
 
 **Commits that touched these files**
-- [#62387](https://github.com/openai/codex/pull/62387) Expose custom status lines in `/experimental` (#62387) (2026-11-19 00:59 UTC)
-- [#62392](https://github.com/openai/codex/pull/62392) Pass eligible connector results through to ChatGPT Responses (#62392) (2026-11-19 01:27 UTC)
+- [#62476](https://github.com/openai/codex/pull/62476) Use gRPC for all code-mode host connections (#62476) (2026-11-19 09:37 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/8e9746b19d20...b5d9f7116e25)
+[Full diff since the last change](https://github.com/openai/codex/compare/b5d9f7116e25...39c29c3bb620)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -55,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@b5d9f7116e25`](https://github.com/openai/codex/commit/b5d9f7116e256e59f4a036c1c3e18979994598c4), committed 2026-11-19T03:58:29Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101), committed 2026-11-19T13:18:44Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

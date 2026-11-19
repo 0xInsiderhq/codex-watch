@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "b5d9f7116e256e59f4a036c1c3e18979994598c4",
-  "commit_date": "2026-11-19T03:58:29Z"
+  "sha": "39c29c3bb620f91e84a3bb266bb496dfb697c101",
+  "commit_date": "2026-11-19T13:18:44Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -403,8 +403,8 @@
    "default_enabled": true
   },
   "code_mode_host_grpc": {
-   "stage": "Stable",
-   "default_enabled": true
+   "stage": "Removed",
+   "default_enabled": false
   },
   "code_mode_host_output_truncation": {
    "stage": "Stable",

@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-19 13:29 UTC · [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101)
+
+**Feature flags**
+- changed `code_mode_host_grpc` default_enabled: True → False; stage: "Stable" → "Removed"
+
+**Commits that touched these files**
+- [#62476](https://github.com/openai/codex/pull/62476) Use gRPC for all code-mode host connections (#62476) (2026-11-19 09:37 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/b5d9f7116e25...39c29c3bb620)
+
 ## 2026-11-19 04:14 UTC · [`openai/codex@b5d9f7116e25`](https://github.com/openai/codex/commit/b5d9f7116e256e59f4a036c1c3e18979994598c4)
 
 **Feature flags**
