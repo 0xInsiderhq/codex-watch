@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-19 13:29 UTC · [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101)
+### 2026-11-19 21:46 UTC · [`openai/codex@75f2d93e7cac`](https://github.com/openai/codex/commit/75f2d93e7cac9fc63540b786b8adc0f3e205b5dc)
 
 **Feature flags**
-- changed `code_mode_host_grpc` default_enabled: True → False; stage: "Stable" → "Removed"
+- changed `mcp_connection_sharing` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#62476](https://github.com/openai/codex/pull/62476) Use gRPC for all code-mode host connections (#62476) (2026-11-19 09:37 UTC)
+- [#62552](https://github.com/openai/codex/pull/62552) Enable MCP connection sharing by default (#62552) (2026-11-19 16:56 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/b5d9f7116e25...39c29c3bb620)
+[Full diff since the last change](https://github.com/openai/codex/compare/39c29c3bb620...75f2d93e7cac)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101), committed 2026-11-19T13:18:44Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@75f2d93e7cac`](https://github.com/openai/codex/commit/75f2d93e7cac9fc63540b786b8adc0f3e205b5dc), committed 2026-11-19T21:45:13Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

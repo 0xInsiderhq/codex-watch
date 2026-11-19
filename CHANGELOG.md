@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-19 21:46 UTC · [`openai/codex@75f2d93e7cac`](https://github.com/openai/codex/commit/75f2d93e7cac9fc63540b786b8adc0f3e205b5dc)
+
+**Feature flags**
+- changed `mcp_connection_sharing` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#62552](https://github.com/openai/codex/pull/62552) Enable MCP connection sharing by default (#62552) (2026-11-19 16:56 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/39c29c3bb620...75f2d93e7cac)
+
 ## 2026-11-19 13:29 UTC · [`openai/codex@39c29c3bb620`](https://github.com/openai/codex/commit/39c29c3bb620f91e84a3bb266bb496dfb697c101)
 
 **Feature flags**
