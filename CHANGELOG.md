@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-20 19:13 UTC · [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500)
+
+**Feature flags**
+- removed `hosted_search_policy`
+
+**Commits that touched these files**
+- [#62808](https://github.com/openai/codex/pull/62808) Remove model-selected Search MCP routing (#62808) (2026-11-20 17:46 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/076ac7856b12...4e9ce8fa9e76)
+
 ## 2026-11-20 11:18 UTC · [`openai/codex@076ac7856b12`](https://github.com/openai/codex/commit/076ac7856b1235947f271930bd7437bae54a0dfc)
 
 **Feature flags**

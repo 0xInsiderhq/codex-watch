@@ -7,15 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-20 11:18 UTC · [`openai/codex@076ac7856b12`](https://github.com/openai/codex/commit/076ac7856b1235947f271930bd7437bae54a0dfc)
+### 2026-11-20 19:13 UTC · [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500)
 
 **Feature flags**
-- added `daemon_updates` (Stable, on by default)
+- removed `hosted_search_policy`
 
 **Commits that touched these files**
-- [#62690](https://github.com/openai/codex/pull/62690) Let administrators disable Codex daemon updates (#62690) (2026-11-20 07:14 UTC)
+- [#62808](https://github.com/openai/codex/pull/62808) Remove model-selected Search MCP routing (#62808) (2026-11-20 17:46 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/75f2d93e7cac...076ac7856b12)
+[Full diff since the last change](https://github.com/openai/codex/compare/076ac7856b12...4e9ce8fa9e76)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@076ac7856b12`](https://github.com/openai/codex/commit/076ac7856b1235947f271930bd7437bae54a0dfc), committed 2026-11-20T08:49:07Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500), committed 2026-11-20T18:46:14Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
