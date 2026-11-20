@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-20 11:18 UTC · [`openai/codex@076ac7856b12`](https://github.com/openai/codex/commit/076ac7856b1235947f271930bd7437bae54a0dfc)
+
+**Feature flags**
+- added `daemon_updates` (Stable, on by default)
+
+**Commits that touched these files**
+- [#62690](https://github.com/openai/codex/pull/62690) Let administrators disable Codex daemon updates (#62690) (2026-11-20 07:14 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/75f2d93e7cac...076ac7856b12)
+
 ## 2026-11-19 21:46 UTC · [`openai/codex@75f2d93e7cac`](https://github.com/openai/codex/commit/75f2d93e7cac9fc63540b786b8adc0f3e205b5dc)
 
 **Feature flags**

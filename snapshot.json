@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "75f2d93e7cac9fc63540b786b8adc0f3e205b5dc",
-  "commit_date": "2026-11-19T21:45:13Z"
+  "sha": "076ac7856b1235947f271930bd7437bae54a0dfc",
+  "commit_date": "2026-11-20T08:49:07Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -835,6 +835,10 @@
    "default_enabled": true
   },
   "in_app_updates": {
+   "stage": "Stable",
+   "default_enabled": true
+  },
+  "daemon_updates": {
    "stage": "Stable",
    "default_enabled": true
   },
