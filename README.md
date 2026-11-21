@@ -7,15 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-20 19:13 UTC · [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500)
+### 2026-11-21 08:10 UTC · [`openai/codex@ddfaef91b258`](https://github.com/openai/codex/commit/ddfaef91b258da5a0217951ed5f6e0039add5e02)
 
 **Feature flags**
-- removed `hosted_search_policy`
+- added `web_search_indexed_default` (Stable, off by default)
+- changed `concurrent_reasoning_summaries` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#62808](https://github.com/openai/codex/pull/62808) Remove model-selected Search MCP routing (#62808) (2026-11-20 17:46 UTC)
+- [#62894](https://github.com/openai/codex/pull/62894) Add an opt-in indexed web search default (#62894) (2026-11-21 04:05 UTC)
+- [#62903](https://github.com/openai/codex/pull/62903) Enable concurrent reasoning summaries by default (#62903) (2026-11-21 05:42 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/076ac7856b12...4e9ce8fa9e76)
+[Full diff since the last change](https://github.com/openai/codex/compare/4e9ce8fa9e76...ddfaef91b258)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +55,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500), committed 2026-11-20T18:46:14Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@ddfaef91b258`](https://github.com/openai/codex/commit/ddfaef91b258da5a0217951ed5f6e0039add5e02), committed 2026-11-21T05:57:16Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

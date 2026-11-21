@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "4e9ce8fa9e7649ec58601a3d61da7a086da75500",
-  "commit_date": "2026-11-20T18:46:14Z"
+  "sha": "ddfaef91b258da5a0217951ed5f6e0039add5e02",
+  "commit_date": "2026-11-21T05:57:16Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -458,6 +458,10 @@
    "stage": "Deprecated",
    "default_enabled": false
   },
+  "web_search_indexed_default": {
+   "stage": "Stable",
+   "default_enabled": false
+  },
   "standalone_web_search": {
    "stage": "UnderDevelopment",
    "default_enabled": false
@@ -907,8 +911,8 @@
    "default_enabled": true
   },
   "concurrent_reasoning_summaries": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Stable",
+   "default_enabled": true
   },
   "output_token_replay": {
    "stage": "UnderDevelopment",

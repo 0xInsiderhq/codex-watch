@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-21 08:10 UTC · [`openai/codex@ddfaef91b258`](https://github.com/openai/codex/commit/ddfaef91b258da5a0217951ed5f6e0039add5e02)
+
+**Feature flags**
+- added `web_search_indexed_default` (Stable, off by default)
+- changed `concurrent_reasoning_summaries` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#62894](https://github.com/openai/codex/pull/62894) Add an opt-in indexed web search default (#62894) (2026-11-21 04:05 UTC)
+- [#62903](https://github.com/openai/codex/pull/62903) Enable concurrent reasoning summaries by default (#62903) (2026-11-21 05:42 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/4e9ce8fa9e76...ddfaef91b258)
+
 ## 2026-11-20 19:13 UTC · [`openai/codex@4e9ce8fa9e76`](https://github.com/openai/codex/commit/4e9ce8fa9e7649ec58601a3d61da7a086da75500)
 
 **Feature flags**
