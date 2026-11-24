@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "98f8a3311ba7cac785e570713127e9127af4043a",
-  "commit_date": "2026-11-24T00:26:55Z"
+  "sha": "8e757686c1ba2d4dc0864edfb8aa286f7029d90d",
+  "commit_date": "2026-11-24T10:02:49Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -391,6 +391,10 @@
    "default_enabled": false
   },
   "code_mode_tool_search": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "code_mode_mcp_result_dedup": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
@@ -877,6 +881,10 @@
   "image_generation": {
    "stage": "Stable",
    "default_enabled": true
+  },
+  "defer_image_generation": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
   },
   "image_generation_animation": {
    "stage": "UnderDevelopment",

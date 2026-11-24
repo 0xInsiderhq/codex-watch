@@ -7,18 +7,17 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-24 00:42 UTC · [`openai/codex@98f8a3311ba7`](https://github.com/openai/codex/commit/98f8a3311ba7cac785e570713127e9127af4043a)
+### 2026-11-24 10:28 UTC · [`openai/codex@8e757686c1ba`](https://github.com/openai/codex/commit/8e757686c1ba2d4dc0864edfb8aa286f7029d90d)
 
-**Model IDs anywhere in source**
-- added `gpt-5.4-nano` (first seen in `codex-rs/core/src/compact_remote_v2_attempt.rs`)
-- changed `gpt-5.2`: "codex-rs/tui/src/chatwidget/model_popups.rs" → "codex-rs/core/src/compact_remote_v2_attempt.rs"
-- changed `gpt-5.2-codex`: "codex-rs/tui/src/bottom_pane/status_surface_preview.rs" → "codex-rs/core/src/compact_remote_v2_attempt.rs"
+**Feature flags**
+- added `code_mode_mcp_result_dedup` (UnderDevelopment, off by default)
+- added `defer_image_generation` (UnderDevelopment, off by default)
 
 **Commits that touched these files**
-- [#63320](https://github.com/openai/codex/pull/63320) Preserve structured output format during remote compaction (#63320) (2026-11-23 12:17 UTC)
-- [#63381](https://github.com/openai/codex/pull/63381) Omit final-answer schemas from legacy remote compaction (#63381) (2026-11-23 17:11 UTC)
+- [#63540](https://github.com/openai/codex/pull/63540) Deduplicate MCP text fallbacks in Code Mode output (#63540) (2026-11-24 04:49 UTC)
+- [#63594](https://github.com/openai/codex/pull/63594) Add opt-in deferred image generation in code mode (#63594) (2026-11-24 09:52 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/ddfaef91b258...98f8a3311ba7)
+[Full diff since the last change](https://github.com/openai/codex/compare/98f8a3311ba7...8e757686c1ba)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -56,7 +55,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@98f8a3311ba7`](https://github.com/openai/codex/commit/98f8a3311ba7cac785e570713127e9127af4043a), committed 2026-11-24T00:26:55Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@8e757686c1ba`](https://github.com/openai/codex/commit/8e757686c1ba2d4dc0864edfb8aa286f7029d90d), committed 2026-11-24T10:02:49Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

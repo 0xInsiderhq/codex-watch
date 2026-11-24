@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-24 10:28 UTC · [`openai/codex@8e757686c1ba`](https://github.com/openai/codex/commit/8e757686c1ba2d4dc0864edfb8aa286f7029d90d)
+
+**Feature flags**
+- added `code_mode_mcp_result_dedup` (UnderDevelopment, off by default)
+- added `defer_image_generation` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#63540](https://github.com/openai/codex/pull/63540) Deduplicate MCP text fallbacks in Code Mode output (#63540) (2026-11-24 04:49 UTC)
+- [#63594](https://github.com/openai/codex/pull/63594) Add opt-in deferred image generation in code mode (#63594) (2026-11-24 09:52 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/98f8a3311ba7...8e757686c1ba)
+
 ## 2026-11-24 00:42 UTC · [`openai/codex@98f8a3311ba7`](https://github.com/openai/codex/commit/98f8a3311ba7cac785e570713127e9127af4043a)
 
 **Model IDs anywhere in source**
