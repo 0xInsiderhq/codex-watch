@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "ddfaef91b258da5a0217951ed5f6e0039add5e02",
-  "commit_date": "2026-11-21T05:57:16Z"
+  "sha": "98f8a3311ba7cac785e570713127e9127af4043a",
+  "commit_date": "2026-11-24T00:26:55Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -1229,10 +1229,11 @@
   "gpt-5.1": ".github/codex/home/config.toml",
   "gpt-5.1-codex": "codex-rs/tui/src/chatwidget/model_popups.rs",
   "gpt-5.1-codex-max": "codex-rs/tui/src/chatwidget/model_popups.rs",
-  "gpt-5.2": "codex-rs/tui/src/chatwidget/model_popups.rs",
-  "gpt-5.2-codex": "codex-rs/tui/src/bottom_pane/status_surface_preview.rs",
+  "gpt-5.2": "codex-rs/core/src/compact_remote_v2_attempt.rs",
+  "gpt-5.2-codex": "codex-rs/core/src/compact_remote_v2_attempt.rs",
   "gpt-5.4": "codex-rs/tui/src/app/startup_prompts.rs",
   "gpt-5.4-mini": "codex-rs/tui/src/app/startup_prompts.rs",
+  "gpt-5.4-nano": "codex-rs/core/src/compact_remote_v2_attempt.rs",
   "gpt-5.5": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",
   "gpt-5.6-luna": "codex-rs/ext/guardian-v2/src/async_scorer/sampler.rs",
   "gpt-5.6-sol": "codex-rs/model-provider/src/amazon_bedrock/catalog.rs",

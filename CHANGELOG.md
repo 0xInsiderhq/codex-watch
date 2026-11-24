@@ -2,6 +2,19 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-24 00:42 UTC · [`openai/codex@98f8a3311ba7`](https://github.com/openai/codex/commit/98f8a3311ba7cac785e570713127e9127af4043a)
+
+**Model IDs anywhere in source**
+- added `gpt-5.4-nano` (first seen in `codex-rs/core/src/compact_remote_v2_attempt.rs`)
+- changed `gpt-5.2`: "codex-rs/tui/src/chatwidget/model_popups.rs" → "codex-rs/core/src/compact_remote_v2_attempt.rs"
+- changed `gpt-5.2-codex`: "codex-rs/tui/src/bottom_pane/status_surface_preview.rs" → "codex-rs/core/src/compact_remote_v2_attempt.rs"
+
+**Commits that touched these files**
+- [#63320](https://github.com/openai/codex/pull/63320) Preserve structured output format during remote compaction (#63320) (2026-11-23 12:17 UTC)
+- [#63381](https://github.com/openai/codex/pull/63381) Omit final-answer schemas from legacy remote compaction (#63381) (2026-11-23 17:11 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/ddfaef91b258...98f8a3311ba7)
+
 ## 2026-11-21 08:10 UTC · [`openai/codex@ddfaef91b258`](https://github.com/openai/codex/commit/ddfaef91b258da5a0217951ed5f6e0039add5e02)
 
 **Feature flags**
