@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-24 20:50 UTC · [`openai/codex@32f77f824d9e`](https://github.com/openai/codex/commit/32f77f824d9e84e8cc7d16a836225c118c4f6a30)
+
+**Feature flags**
+- added `guardian_native_action_framing` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#63649](https://github.com/openai/codex/pull/63649) Frame pending native agent calls as Guardian approval requests (#63649) (2026-11-24 14:20 UTC)
+- [#63730](https://github.com/openai/codex/pull/63730) Allow async user messages through code mode (#63730) (2026-11-24 19:56 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/8e757686c1ba...32f77f824d9e)
+
 ## 2026-11-24 10:28 UTC · [`openai/codex@8e757686c1ba`](https://github.com/openai/codex/commit/8e757686c1ba2d4dc0864edfb8aa286f7029d90d)
 
 **Feature flags**

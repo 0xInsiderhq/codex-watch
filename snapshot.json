@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "8e757686c1ba2d4dc0864edfb8aa286f7029d90d",
-  "commit_date": "2026-11-24T10:02:49Z"
+  "sha": "32f77f824d9e84e8cc7d16a836225c118c4f6a30",
+  "commit_date": "2026-11-24T20:35:36Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -995,6 +995,10 @@
    "default_enabled": false
   },
   "guardian_native_multi_agent_history": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "guardian_native_action_framing": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
