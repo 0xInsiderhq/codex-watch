@@ -2,6 +2,18 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-25 23:15 UTC · [`openai/codex@80ea5901ad7f`](https://github.com/openai/codex/commit/80ea5901ad7f53b1f6478a33f5fd51ffc2676d33)
+
+**Feature flags**
+- added `guardianv3_shadow` (UnderDevelopment, off by default)
+- changed `skill_search` default_enabled: True → False; stage: "Stable" → "Removed"
+
+**Commits that touched these files**
+- [#63949](https://github.com/openai/codex/pull/63949) Add opt-in shadow intake for Guardian V3 (#63949) (2026-11-25 16:07 UTC)
+- [#63993](https://github.com/openai/codex/pull/63993) Remove the shadow skill ranking experiment (#63993) (2026-11-25 22:41 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/d3ca5182df45...80ea5901ad7f)
+
 ## 2026-11-25 14:28 UTC · [`openai/codex@d3ca5182df45`](https://github.com/openai/codex/commit/d3ca5182df452f8fdd9963e361ad16fe69f85217)
 
 **Feature flags**
