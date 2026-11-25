@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-25 14:28 UTC · [`openai/codex@d3ca5182df45`](https://github.com/openai/codex/commit/d3ca5182df452f8fdd9963e361ad16fe69f85217)
+
+**Feature flags**
+- changed `mcp_shared_repl_cwd` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
+
+**Commits that touched these files**
+- [#63821](https://github.com/openai/codex/pull/63821) Enable fixed launch directories for shared MCP REPL servers (#63821) (2026-11-25 04:07 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/87de5e932dd0...d3ca5182df45)
+
 ## 2026-11-25 04:03 UTC · [`openai/codex@87de5e932dd0`](https://github.com/openai/codex/commit/87de5e932dd03bb9efece4a6dd3eab4c5de45701)
 
 **Feature flags**

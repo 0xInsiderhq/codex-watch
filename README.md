@@ -7,20 +7,15 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-25 04:03 UTC · [`openai/codex@87de5e932dd0`](https://github.com/openai/codex/commit/87de5e932dd03bb9efece4a6dd3eab4c5de45701)
+### 2026-11-25 14:28 UTC · [`openai/codex@d3ca5182df45`](https://github.com/openai/codex/commit/d3ca5182df452f8fdd9963e361ad16fe69f85217)
 
 **Feature flags**
-- added `statsig_gates` (UnderDevelopment, off by default)
-
-**chatgpt.com / openai.com URLs**
-- added `https://ab.chatgpt.com/v1/initialize`
-- added `https://ab.chatgpt.com/v1/rgstr`
-- added `https://ab.chatgpt.com/v1/sdk_exception`
+- changed `mcp_shared_repl_cwd` default_enabled: False → True; stage: "UnderDevelopment" → "Stable"
 
 **Commits that touched these files**
-- [#63780](https://github.com/openai/codex/pull/63780) Add opt-in Statsig initialization to Codex core (#63780) (2026-11-25 00:28 UTC)
+- [#63821](https://github.com/openai/codex/pull/63821) Enable fixed launch directories for shared MCP REPL servers (#63821) (2026-11-25 04:07 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/32f77f824d9e...87de5e932dd0)
+[Full diff since the last change](https://github.com/openai/codex/compare/87de5e932dd0...d3ca5182df45)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -58,7 +53,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@87de5e932dd0`](https://github.com/openai/codex/commit/87de5e932dd03bb9efece4a6dd3eab4c5de45701), committed 2026-11-25T02:45:25Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@d3ca5182df45`](https://github.com/openai/codex/commit/d3ca5182df452f8fdd9963e361ad16fe69f85217), committed 2026-11-25T14:22:54Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed

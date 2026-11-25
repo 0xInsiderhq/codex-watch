@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "87de5e932dd03bb9efece4a6dd3eab4c5de45701",
-  "commit_date": "2026-11-25T02:45:25Z"
+  "sha": "d3ca5182df452f8fdd9963e361ad16fe69f85217",
+  "commit_date": "2026-11-25T14:22:54Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -707,8 +707,8 @@
    "default_enabled": true
   },
   "mcp_shared_repl_cwd": {
-   "stage": "UnderDevelopment",
-   "default_enabled": false
+   "stage": "Stable",
+   "default_enabled": true
   },
   "mcp_lazy_stdio_startup": {
    "stage": "Stable",
