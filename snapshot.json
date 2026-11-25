@@ -2,8 +2,8 @@
  "schema": 1,
  "source": {
   "repo": "openai/codex",
-  "sha": "32f77f824d9e84e8cc7d16a836225c118c4f6a30",
-  "commit_date": "2026-11-24T20:35:36Z"
+  "sha": "87de5e932dd03bb9efece4a6dd3eab4c5de45701",
+  "commit_date": "2026-11-25T02:45:25Z"
  },
  "models": {
   "gpt-6.2-sol": {
@@ -263,6 +263,10 @@
    "description": "Preview five-hour and weekly allowance history for consumer accounts in /analytics."
   },
   "cli_resume_account_check": {
+   "stage": "UnderDevelopment",
+   "default_enabled": false
+  },
+  "statsig_gates": {
    "stage": "UnderDevelopment",
    "default_enabled": false
   },
@@ -1269,6 +1273,9 @@
  },
  "urls": [
   "https://ab.chatgpt.com/otlp/v1/metrics",
+  "https://ab.chatgpt.com/v1/initialize",
+  "https://ab.chatgpt.com/v1/rgstr",
+  "https://ab.chatgpt.com/v1/sdk_exception",
   "https://api.openai.com",
   "https://api.openai.com/auth",
   "https://api.openai.com/profile",

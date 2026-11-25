@@ -2,6 +2,21 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-25 04:03 UTC · [`openai/codex@87de5e932dd0`](https://github.com/openai/codex/commit/87de5e932dd03bb9efece4a6dd3eab4c5de45701)
+
+**Feature flags**
+- added `statsig_gates` (UnderDevelopment, off by default)
+
+**chatgpt.com / openai.com URLs**
+- added `https://ab.chatgpt.com/v1/initialize`
+- added `https://ab.chatgpt.com/v1/rgstr`
+- added `https://ab.chatgpt.com/v1/sdk_exception`
+
+**Commits that touched these files**
+- [#63780](https://github.com/openai/codex/pull/63780) Add opt-in Statsig initialization to Codex core (#63780) (2026-11-25 00:28 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/32f77f824d9e...87de5e932dd0)
+
 ## 2026-11-24 20:50 UTC · [`openai/codex@32f77f824d9e`](https://github.com/openai/codex/commit/32f77f824d9e84e8cc7d16a836225c118c4f6a30)
 
 **Feature flags**
