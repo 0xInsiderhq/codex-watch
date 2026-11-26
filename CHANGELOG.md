@@ -2,6 +2,16 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-26 15:39 UTC · [`openai/codex@d0b140efb5d3`](https://github.com/openai/codex/commit/d0b140efb5d326ae481d77aaf40b925226a74cae)
+
+**Feature flags**
+- added `compact_filesystem_context` (UnderDevelopment, off by default)
+
+**Commits that touched these files**
+- [#64164](https://github.com/openai/codex/pull/64164) Add compact filesystem context for workspace-write profiles (#64164) (2026-11-26 15:09 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/80ea5901ad7f...d0b140efb5d3)
+
 ## 2026-11-25 23:15 UTC · [`openai/codex@80ea5901ad7f`](https://github.com/openai/codex/commit/80ea5901ad7f53b1f6478a33f5fd51ffc2676d33)
 
 **Feature flags**
