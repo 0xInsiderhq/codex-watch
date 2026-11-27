@@ -2,6 +2,17 @@
 
 Newest first. Every entry is a change in the public `openai/codex` source.
 
+## 2026-11-27 00:03 UTC · [`openai/codex@b9e830fb986a`](https://github.com/openai/codex/commit/b9e830fb986ae478ce59c3c97408bdfa1bd5ddab)
+
+**Feature flags**
+- added `guardianv3.shadow_enabled` (UnderDevelopment, off by default)
+- removed `guardianv3_shadow`
+
+**Commits that touched these files**
+- [#64187](https://github.com/openai/codex/pull/64187) Configure Guardian V3 shadow reviews from the root thread (#64187) (2026-11-26 17:16 UTC)
+
+[Full diff since the last change](https://github.com/openai/codex/compare/d0b140efb5d3...b9e830fb986a)
+
 ## 2026-11-26 15:39 UTC · [`openai/codex@d0b140efb5d3`](https://github.com/openai/codex/commit/d0b140efb5d326ae481d77aaf40b925226a74cae)
 
 **Feature flags**

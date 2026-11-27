@@ -7,15 +7,16 @@ OpenAI ships Codex in the open. Model catalogs, plan names and feature flags lan
 ## Latest change
 
 <!-- latest:start -->
-### 2026-11-26 15:39 UTC · [`openai/codex@d0b140efb5d3`](https://github.com/openai/codex/commit/d0b140efb5d326ae481d77aaf40b925226a74cae)
+### 2026-11-27 00:03 UTC · [`openai/codex@b9e830fb986a`](https://github.com/openai/codex/commit/b9e830fb986ae478ce59c3c97408bdfa1bd5ddab)
 
 **Feature flags**
-- added `compact_filesystem_context` (UnderDevelopment, off by default)
+- added `guardianv3.shadow_enabled` (UnderDevelopment, off by default)
+- removed `guardianv3_shadow`
 
 **Commits that touched these files**
-- [#64164](https://github.com/openai/codex/pull/64164) Add compact filesystem context for workspace-write profiles (#64164) (2026-11-26 15:09 UTC)
+- [#64187](https://github.com/openai/codex/pull/64187) Configure Guardian V3 shadow reviews from the root thread (#64187) (2026-11-26 17:16 UTC)
 
-[Full diff since the last change](https://github.com/openai/codex/compare/80ea5901ad7f...d0b140efb5d3)
+[Full diff since the last change](https://github.com/openai/codex/compare/d0b140efb5d3...b9e830fb986a)
 <!-- latest:end -->
 
 Full history in [CHANGELOG.md](CHANGELOG.md). Machine-readable in [changes.jsonl](changes.jsonl).
@@ -53,7 +54,7 @@ Test files and `#[cfg(test)]` blocks are skipped, so `gpt-test` and friends don'
 | `gpt-5.5` | GPT-5.5 | list | 272000 | low, medium, high, xhigh |
 | `codex-auto-review` | Codex Auto Review | hide | 272000 (max 872000) | low, medium, high, xhigh, max |
 
-From [`openai/codex@d0b140efb5d3`](https://github.com/openai/codex/commit/d0b140efb5d326ae481d77aaf40b925226a74cae), committed 2026-11-26T15:22:56Z. Hidden models are in the catalog but not in the picker.
+From [`openai/codex@b9e830fb986a`](https://github.com/openai/codex/commit/b9e830fb986ae478ce59c3c97408bdfa1bd5ddab), committed 2026-11-26T22:54:05Z. Hidden models are in the catalog but not in the picker.
 <!-- catalog:end -->
 
 ## Found before this repo existed
